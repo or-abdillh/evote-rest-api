@@ -5,10 +5,8 @@ const response = require('../response')
 module.exports = {
 
 	index(req, res) {
-		console.log(req)
-		response.success(res, {
-			data: 'This is example response from API',
-			message: 'API is working !!'
-		})
-	}
+		response.success(res, 'This is example response from your server')
+	},
+
+	login: require('./modules/login.js')
 }
