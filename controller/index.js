@@ -8,5 +8,6 @@ module.exports = {
 		response.success(res, 'This is example response from your server')
 	},
 
-	login: require('./modules/login.js')
+	login: require('./modules/login.js'),
+	getCandidates: require('./modules/getCandidates.js')
 }

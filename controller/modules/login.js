@@ -13,18 +13,28 @@ module.exports = (req, res) => {
 	const password = req.body.password
 
 	//Validation dat suing mySQL
-	const sql = `SELECT username, role FROM Accounts WHERE username = '${username}' AND password = '${password}' AND role = 'general'` 
+	let sql = `SELECT username, role FROM Accounts WHERE username = '${username}' AND password = '${password}'` 
 
 	conn.query(sql, (err, rows) => {
 		if ( err ) response.internalError(res, err)
 		else {
 			if ( rows.length > 0 ) {
+				//create isAdmin ?
+				const isAdmin = rows[0].role === 'master' ? true : false 
+				
 				//Create new JWT token
 				const token = jwt.sign(
-					{ username, role: rows[0].role },
+					{ username, isAdmin },
 					process.env.JWT_SECRET_KEY,
-					{ expiresIn: process.env.JWT_TOKEN_EXPIRED }
+					{ expiresIn: '30s' }
 				)
+
+				//save token to DB
+				sql = `UPDATE Accounts SET token = '${token}' WHERE username = '${username}' AND password = '${password}'`	
+				
+				conn.query(sql, err => {
+					if (err) response.internalError(res, err)
+				})
 
 				//Send token to client
 				response.success(res, { token })

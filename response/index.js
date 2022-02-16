@@ -20,13 +20,18 @@ module.exports =  {
 
 	internalError(res, err) {
 		res.status(501)
-		res.json( createJSON(501, 'internal server error', err) )
 		res.end()
 	},
 
-	forbidden(res) {
+	forbidden(res, message = false) {
 		res.status(403)
-		res.send( createJSON(501, 'Ilegal access') )
+		res.json( createJSON(403, 'Ilegal access', message) )
+		res.end()
+	},
+
+	empty(res) {
+		res.status(203)
+		res.send( createJSON(203, 'Empty results') )
 		res.end()
 	}
 }
