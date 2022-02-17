@@ -26,7 +26,7 @@ module.exports = (req, res) => {
 				const token = jwt.sign(
 					{ username, isAdmin },
 					process.env.JWT_SECRET_KEY,
-					{ expiresIn: '30s' }
+					{ expiresIn: '30m' }
 				)
 
 				//save token to DB
