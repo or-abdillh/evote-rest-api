@@ -8,8 +8,8 @@ module.exports = app => {
 	app.route('/')
 		.get( controller.index  )
 
-	app.route('/login').post( controller.login )
+	app.route('/login').post( controller.accounts.login )
 
 	app.route('/candidates')
-		.get( auth, controller.getCandidates )
+		.get( auth, controller.candidates.getter )
 }
