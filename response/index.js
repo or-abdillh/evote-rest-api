@@ -19,19 +19,14 @@ module.exports =  {
 	},
 
 	internalError(res, err) {
-		res.status(501)
-		res.end()
+		res.status(501).send( createJSON(501, 'Internal server error', err.sqlMessage) )
 	},
 
 	forbidden(res, message = false) {
-		res.status(403)
-		res.json( createJSON(403, 'Ilegal access', message) )
-		res.end()
+		res.status(403).send( createJSON(403, 'Ilegal access', message) )
 	},
 
 	empty(res) {
-		res.status(203)
-		res.send( createJSON(203, 'Empty results') )
-		res.end()
+		res.status(203).send( createJSON(203, 'Empty results') )
 	}
 }
