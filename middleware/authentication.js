@@ -16,7 +16,6 @@ module.exports = (req, res, next) => {
 
 		if (err) response.forbidden(res, err.name)
 		else {
-			console.log(decoded)
 			//Get username an verified to DB
 			const username = decoded.username
 			const sql = `SELECT username FROM Accounts WHERE username = '${username}' AND token = '${token}'`
