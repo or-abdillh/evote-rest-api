@@ -10,6 +10,7 @@ module.exports = {
 
 	accounts: {
 		login: require('./modules/login.js'),
+		auth: require('./modules/auth.js')
 	},
 
 	candidates: {
