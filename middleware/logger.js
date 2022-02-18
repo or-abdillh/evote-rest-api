@@ -18,11 +18,11 @@ const createLog = (req, res, duration) => {
 	
 	const now = new Date().toLocaleString('id')
 
-	const log = `[${now}] [${statusCode} - ${statusMessage}] ${url} ${method} ${duration.toLocaleString('id')}ms \n`
+	const log = `[${now}] [${statusCode} - ${statusMessage}] ${url} ${method} ${duration.toLocaleString('id')}ms`
 	
 	fs.appendFile(
 		process.env.LOGGER_PATH,
-		log,
+		log + '\n',
 		err => {
 			if (!err) console.log(log)
 		}
