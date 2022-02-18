@@ -28,5 +28,9 @@ module.exports =  {
 
 	empty(res) {
 		res.status(203).send( createJSON(203, 'Empty results') )
+	},
+
+	notFound(res, data) {
+		res.status(404).send( createJSON(404, data) )
 	}
 }
