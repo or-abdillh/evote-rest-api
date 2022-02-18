@@ -1,6 +1,7 @@
 'use strict'
 
 const controller = require('../controller')
+const auth = require('../middleware/authForAdmin.js')
 
 module.exports = app => {
 
@@ -13,6 +14,9 @@ module.exports = app => {
 	app.route('/accounts/profile').get( controller.accounts.getter.profile )
 
 	app.route('/accounts/vote/:candidate').post( controller.accounts.setter.voting )
+
+	app.route('/accounts')
+		.get( auth, controller.accounts.getter.all )
 
 	app.route('/event')
 		.get( controller.event.getter.simple )
