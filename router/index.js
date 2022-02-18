@@ -10,7 +10,7 @@ module.exports = app => {
 
 	app.route('/auth').get( controller.system.auth )
 
-	app.route('/accounts/:username').get( controller.accounts.getter.profile )
+	app.route('/accounts/profile').get( controller.accounts.getter.profile )
 
 	app.route('/accounts/vote/:candidate').post( controller.accounts.setter.voting )
 
