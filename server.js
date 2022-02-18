@@ -6,6 +6,7 @@ const cors = require('cors')
 const conn = require('./connection.js')
 const router = require('./router')
 const logger = require('./middleware/logger.js')
+const auth = require('./middleware/authentication.js')
 
 const app = express()
 const PORT = process.env.PORT || 8080
@@ -15,6 +16,13 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.use(logger)
+
+//Use auth middleware for specific path
+const path = [
+	'/accounts', '/candidates'
+]
+app.use(path, auth)
+
 router(app)
 
 app.listen(PORT, err => {
