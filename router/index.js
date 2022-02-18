@@ -12,6 +12,9 @@ module.exports = app => {
 
 	app.route('/accounts/:username').get( controller.accounts.getter.profile )
 
+	app.route('/event')
+		.get( controller.event.getter.simple )
+
 	app.route('/candidates')
 		.get( controller.candidates.getter.all )
 }

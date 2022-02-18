@@ -23,5 +23,11 @@ module.exports = {
 		getter: {
 			all: require('./modules/getCandidates.js')
 		}
+	},
+
+	event: {
+		getter: {
+			simple: require('./modules/getEvent.js')
+		}
 	}
 }
