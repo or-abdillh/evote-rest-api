@@ -12,6 +12,8 @@ module.exports = app => {
 
 	app.route('/accounts/:username').get( controller.accounts.getter.profile )
 
+	app.route('/accounts/vote/:candidate').post( controller.accounts.setter.voting )
+
 	app.route('/event')
 		.get( controller.event.getter.simple )
 

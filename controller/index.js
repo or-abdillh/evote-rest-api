@@ -16,6 +16,9 @@ module.exports = {
 	accounts: {
 		getter: {
 			profile: require('./modules/getProfile.js')
+		},
+		setter: {
+			voting: require('./modules/voting.js')
 		}
 	},
 
