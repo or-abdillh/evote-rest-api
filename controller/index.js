@@ -8,12 +8,20 @@ module.exports = {
 		response.success(res, 'This is example response from your server')
 	},
 
-	accounts: {
+	system: {
 		login: require('./modules/login.js'),
 		auth: require('./modules/auth.js')
 	},
 
+	accounts: {
+		getter: {
+			profile: require('./modules/getProfile.js')
+		}
+	},
+
 	candidates: {
-		getter: require('./modules/getCandidates.js')
+		getter: {
+			all: require('./modules/getCandidates.js')
+		}
 	}
 }
