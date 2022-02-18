@@ -19,7 +19,8 @@ module.exports = {
 			all: require('./modules/getAccounts.js'),
 		},
 		setter: {
-			voting: require('./modules/voting.js')
+			voting: require('./modules/voting.js'),
+			add: require('./modules/addAccount.js')
 		}
 	},
 

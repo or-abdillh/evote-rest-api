@@ -17,6 +17,7 @@ module.exports = app => {
 
 	app.route('/accounts')
 		.get( auth, controller.accounts.getter.all )
+		.post( auth, controller.accounts.setter.add )
 
 	app.route('/event')
 		.get( controller.event.getter.simple )
