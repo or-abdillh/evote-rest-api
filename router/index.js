@@ -1,17 +1,17 @@
 'use strict'
 
 const controller = require('../controller')
-const auth = require('../middleware/authentication.js')
 
 module.exports = app => {
 
-	app.route('/')
-		.get( controller.index  )
+	app.route('/').get( controller.index  )
 
-	app.route('/login').post( controller.accounts.login )
+	app.route('/login').post( controller.system.login )
 
-	app.route('/auth').get( controller.accounts.auth )
+	app.route('/auth').get( controller.system.auth )
+
+	app.route('/accounts/:username').get( controller.accounts.getter.profile )
 
 	app.route('/candidates')
-		.get( auth, controller.candidates.getter )
+		.get( controller.candidates.getter.all )
 }
