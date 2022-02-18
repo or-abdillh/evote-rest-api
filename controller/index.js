@@ -20,7 +20,8 @@ module.exports = {
 		},
 		setter: {
 			voting: require('./modules/voting.js'),
-			add: require('./modules/addAccount.js')
+			add: require('./modules/addAccount.js'),
+			remove: require('./modules/removeAccount.js'), 
 		}
 	},
 
