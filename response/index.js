@@ -19,7 +19,7 @@ module.exports =  {
 	},
 
 	internalError(res, err) {
-		res.status(501).send( createJSON(501, 'Internal server error', err.sqlMessage) )
+		res.status(500).send( createJSON(500, 'Internal server error', err.sqlMessage) )
 	},
 
 	forbidden(res, message = false) {
@@ -31,6 +31,6 @@ module.exports =  {
 	},
 
 	notFound(res, data) {
-		res.status(404).send( createJSON(404, data) )
+		res.status(404).send( createJSON(404, 'Sorry, maybe something wrong', data) )
 	}
 }
