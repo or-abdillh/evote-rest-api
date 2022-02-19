@@ -19,6 +19,7 @@ module.exports = app => {
 		.get( auth, controller.accounts.getter.all )
 		.post( auth, controller.accounts.setter.add )
 		.delete( auth, controller.accounts.setter.remove )
+		.put( auth, controller.accounts.setter.update )
 
 	app.route('/event')
 		.get( controller.event.getter.simple )

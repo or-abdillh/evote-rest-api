@@ -28,7 +28,6 @@ module.exports = (req, res, next) => {
 					else response.forbidden(res)
 				}
 			})
-			
 		}
 	})
 }
