@@ -21,6 +21,8 @@ module.exports = app => {
 	
 	app.route('/event').get( controller.event.getter.simple )
 
+	app.route('/admin/event/quick-count').get( auth, controller.event.getter.quickCount )
+
 	app.route('/admin/event')
 		.get( auth, controller.event.getter.dashboard )
 		.put( auth, controller.event.setter.update )
