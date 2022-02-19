@@ -32,7 +32,8 @@ module.exports = {
 		},
 		setter: {
 			add: require('./modules/addCandidate.js'),
-			remove: require('./modules/removeCandidate.js')
+			remove: require('./modules/removeCandidate.js'),
+			update: require('./modules/updateCandidate.js'),
 		}
 	},
 

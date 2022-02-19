@@ -30,5 +30,5 @@ module.exports = app => {
 	app.route('/admin/candidates')
 		.post( auth, controller.candidates.setter.add )
 		.delete( auth, controller.candidates.setter.remove )
-
+		.put( auth, controller.candidates.setter.update )
 }
