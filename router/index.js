@@ -17,15 +17,17 @@ module.exports = app => {
 
 	app.route('/accounts/vote/:candidate').post( controller.accounts.setter.voting )
 
+	app.route('/candidates').get( controller.candidates.getter.all )
+	
+	app.route('/event').get( controller.event.getter.simple )
+	
 	app.route('/admin/accounts')
 		.get( auth, controller.accounts.getter.all )
 		.post( auth, controller.accounts.setter.add )
 		.delete( auth, controller.accounts.setter.remove )
 		.put( auth, controller.accounts.setter.update )
 
-	app.route('/event')
-		.get( controller.event.getter.simple )
+	app.route('/admin/candidates')
+		.post( auth, controller.candidates.setter.add )
 
-	app.route('/candidates')
-		.get( controller.candidates.getter.all )
 }

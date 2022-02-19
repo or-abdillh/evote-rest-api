@@ -9,9 +9,18 @@ require('dotenv').config()
 
 module.exports = ( req, res, next ) => {
 
-	//Decoode token
-	const decoded = jwt.decode( req.headers.authorization, { complete: true } )
+	//Verify token
+	const token = req.headers.authorization
 
-	if ( decoded.payload.isAdmin ) next()
-	else response.forbidden(res, 'Just admin can access this resource !!')
+	jwt.verify(
+		token, 
+		process.env.JWT_SECRET_KEY,
+		(err, decoded) => {
+			if (err) response.forbidden(res, err.name)
+			else {
+				if ( decoded.isAdmin ) next()
+				else response.forbidden(res, 'Just admin can access this resource !!')
+			}
+		}
+	)
 }

@@ -29,6 +29,9 @@ module.exports = {
 	candidates: {
 		getter: {
 			all: require('./modules/getCandidates.js')
+		},
+		setter: {
+			add: require('./modules/addCandidate.js')
 		}
 	},
 
