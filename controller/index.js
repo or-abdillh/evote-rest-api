@@ -39,7 +39,8 @@ module.exports = {
 
 	event: {
 		getter: {
-			simple: require('./modules/getEvent.js')
+			simple: require('./modules/getEvent.js'),
+			dashboard: require('./modules/getDashboard.js') 
 		},
 		setter: {
 			update: require('./modules/updateEvent.js')

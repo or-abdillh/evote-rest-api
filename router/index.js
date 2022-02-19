@@ -22,6 +22,7 @@ module.exports = app => {
 	app.route('/event').get( controller.event.getter.simple )
 
 	app.route('/admin/event')
+		.get( auth, controller.event.getter.dashboard )
 		.put( auth, controller.event.setter.update )
 	
 	app.route('/admin/accounts')
