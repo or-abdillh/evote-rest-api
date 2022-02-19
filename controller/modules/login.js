@@ -14,7 +14,7 @@ module.exports = (req, res) => {
 
 	//If admin want to login using path /login/admin
 	const { originalUrl } = req
-	const role = originalUrl === '/login/admin' ? 'master' : 'general'
+	const role = originalUrl === '/admin/login' ? 'master' : 'general'
 	
 	//Validation data using mySQL
 	let sql = `SELECT username, role FROM Accounts WHERE username = '${username}' AND password = '${password}' AND role = '${role}'` 

@@ -23,7 +23,7 @@ module.exports = ( req, res ) => {
   `
 
   conn.query(sql, (err, rows) => {
-  	if (err) response.internalError(res, err.sqlMesasge)
+  	if (err) response.internalError(res, err)
   	else {
   		if ( rows.affectedRows > 0 ) response.success(res, `success to update account for ${key}`)
   		else response.notFound(res, { key })
