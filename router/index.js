@@ -20,6 +20,9 @@ module.exports = app => {
 	app.route('/candidates').get( controller.candidates.getter.all )
 	
 	app.route('/event').get( controller.event.getter.simple )
+
+	app.route('/admin/event')
+		.put( auth, controller.event.setter.update )
 	
 	app.route('/admin/accounts')
 		.get( auth, controller.accounts.getter.all )

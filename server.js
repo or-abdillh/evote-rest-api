@@ -19,7 +19,12 @@ app.use(logger)
 
 //Use auth middleware for specific path
 const path = [
-	'/admin/accounts', '/accounts', '/candidates', '/event'
+	'/admin/accounts',
+	'/admin/candidates',
+	'/admin/event', 
+	'/accounts', 
+	'/candidates', 
+	'/event'
 ]
 app.use(path, auth)
 

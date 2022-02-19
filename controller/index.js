@@ -40,6 +40,9 @@ module.exports = {
 	event: {
 		getter: {
 			simple: require('./modules/getEvent.js')
+		},
+		setter: {
+			update: require('./modules/updateEvent.js')
 		}
 	}
 }
