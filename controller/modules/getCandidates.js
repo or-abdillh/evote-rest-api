@@ -6,7 +6,7 @@ const response = require('../../response')
 module.exports = (req, res) => {
 
 	// Query to DB
-	const sql = 'SELECT * FROM Candidates'
+	const sql = 'SELECT * FROM Candidates ORDER BY candidate_number ASC'
 
 	conn.query(sql, (err, candidates) => {
 		if (err) response.internalError(res, err)
