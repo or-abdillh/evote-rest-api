@@ -12,8 +12,12 @@ module.exports = (req, res) => {
 	const username = req.body.username
 	const password = req.body.password
 
-	//Validation dat suing mySQL
-	let sql = `SELECT username, role FROM Accounts WHERE username = '${username}' AND password = '${password}'` 
+	//If admin want to login using path /login/admin
+	const { originalUrl } = req
+	const role = originalUrl === '/login/admin' ? 'master' : 'general'
+	
+	//Validation data using mySQL
+	let sql = `SELECT username, role FROM Accounts WHERE username = '${username}' AND password = '${password}' AND role = '${role}'` 
 
 	conn.query(sql, (err, rows) => {
 		if ( err ) response.internalError(res, err)

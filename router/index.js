@@ -9,6 +9,8 @@ module.exports = app => {
 
 	app.route('/login').post( controller.system.login )
 
+	app.route('/login/admin').post( controller.system.login )
+
 	app.route('/auth').get( controller.system.auth )
 
 	app.route('/accounts/profile').get( controller.accounts.getter.profile )
