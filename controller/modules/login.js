@@ -18,6 +18,7 @@ module.exports = (req, res) => {
 	
 	//Validation data using mySQL
 	let sql = `SELECT username, role FROM Accounts WHERE username = '${username}' AND password = '${password}' AND role = '${role}'` 
+	console.log(sql)
 
 	conn.query(sql, (err, rows) => {
 		if ( err ) response.internalError(res, err)
