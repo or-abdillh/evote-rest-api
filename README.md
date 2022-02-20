@@ -521,7 +521,7 @@ JWT tokens will expire 30 minutes after tokens are generated
 					"candidates": 4,
 					"participants": 6,
 					"incomingVote": 2,
-					"participations": "32.56%""
+					"participations": "32.56%"
 				}
 			},
 			"createAt": "20/2022 16:45:32"
