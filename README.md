@@ -441,6 +441,127 @@ JWT tokens will expire 30 minutes after tokens are generated
 			"createAt": "20/2022 16:45:32"
 		}
 
+## Get event information
+
+### Request
+
+`GET /event`
+
+		axios.get(
+			'http://localhost:8080/event',
+			{ headers: { authorization: 'YOUR JWT TOKEN' } }
+		)
+
+### Response
+
+		{
+			"status": true,
+			"code": 200,
+			"message": 'success',
+			"response": {
+				event: {
+					"event_title": "Pemilihan Ketum dan Waketum",
+					"event_start_at": 162532730000, //UNIX Time
+					"event_finish_at": 10820130000,
+					"passcode": "VOTE2022",
+					"count": 4 //accounts has voted
+				}
+			},
+			"createAt": "20/2022 16:45:32"
+		}
+
+## Update Event
+
+### Request
+
+`PUT /admin/event`
+
+		//Create body
+		const body = {
+			event_title: 'Pemilihan Ketum dan Waketum',
+			event_start_at: 16846820000,
+			event_finish_at: 2310349000,
+			event_passcode: 'VOTINGYUUK'
+		}
+
+		axios.put(
+			'http://localhost:8080/admin/event',
+			{ body, headers: { authorization: 'YOUR JWT TOKEN' } }
+		)
+
+### Response
+
+		{
+			"status": true,
+			"code": 200,
+			"message": 'success',
+			"response": "Success to update Event detail",
+			"createAt": "20/2022 16:45:32"
+		}
+
+## Get dashboard admin 
+
+### Request
+
+`GET /admin/event`
+
+		axios.get(
+			'http://localhost:8080/admin/event',
+			{ headers: { authorization: 'YOUR JWT TOKEN' } }
+		)
+
+### Response
+
+		{
+			"status": true,
+			"code": 200,
+			"message": 'success',
+			"response": {
+				"dashboard": {
+					{
+				   "candidates": 4,
+				   "participants": 6,
+				   "incomingVote": 2,
+				   "participations": "32.56%""
+					}
+				}
+			},
+			"createAt": "20/2022 16:45:32"
+		}
+
+## Get quick count result
+
+### Request
+
+`GET /admin/event/quick-count`
+
+		axios.get(
+			'http://localhost:8080/admin/event/quick-count',
+			{ headers: { authorization: 'YOUR JWT TOKEN' } }
+		)
+
+### Response
+
+		{
+			"status": true,
+			"code": 200,
+			"message": 'success',
+			"response": {
+				"quickCount": [
+					{
+						{
+							"candidate": "Fulan - Fulanah",
+							"candidateNumber": 1,
+							"vote": 9,
+							"decimal": 42.77777778,
+							"percent": "42.88%""
+						}
+					}
+				]
+			},
+			"createAt": "20/2022 16:45:32"
+		}
+
 ## Error handling
 
 ### This is example response error from server
