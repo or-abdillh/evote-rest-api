@@ -17,11 +17,55 @@ The main file of this application is located on `server.js`.
 
     npm run dev
     
-## Role guide account
-- master, using for the administrator
-- general, as ordinary or voter account
-
 ## Database Structure
+
+### Accounts table
+
+		| Field         | Type         | Null | Key | Default   | Extra |
+		|---------------|--------------|------|-----|-----------|-------|
+		| username      | varchar(15)  | NO   | PRI | NULL      |       |
+		| password      | varchar(15)  | NO   |     | NULL      |       |
+		| fullname      | varchar(50)  | NO   |     | NULL      |       |
+		| token         | varchar(250) | YES  |     | undefined |       |
+		| status_vote   | tinyint(1)   | YES  |     | 0         |       |
+		| candidate_id  | int(11)      | YES  | MUL | NULL      |       |
+		| job_id        | int(11)      | NO   | MUL | NULL      |       |
+		| gender        | varchar(6)   | NO   |     | NULL      |       |
+		| last_modified | bigint(20)   | NO   |     | NULL      |       |
+		| time_stamp    | bigint(20)   | YES  |     | 0         |       |
+		| role          | varchar(10)  | NO   |     | general   |       |
+
+### Candidates table
+
+		| Field               | Type         | Null | Key | Default | Extra          |
+		|---------------------|--------------|------|-----|---------|----------------|
+		| candidate_id        | int(11)      | NO   | PRI | NULL    | auto_increment |
+		| chairman_name       | varchar(30)  | NO   |     | NULL    |                |
+		| chairman_image      | varchar(150) | NO   |     | NULL    |                |
+		| vice_chairman_name  | varchar(30)  | NO   |     | NULL    |                |
+		| vice_chairman_image | varchar(150) | NO   |     | NULL    |                |
+		| candidate_number    | int(11)      | NO   |     | NULL    |                |
+
+### Event table
+		
+		| Field           | Type         | Null | Key | Default | Extra |
+		|-----------------|--------------|------|-----|---------|-------|
+		| event_start_at  | bigint(20)   | NO   |     | NULL    |       |
+		| event_finish_at | bigint(20)   | NO   |     | NULL    |       |
+		| event_title     | varchar(250) | NO   |     | NULL    |       |
+		| passcode        | varchar(10)  | YES  |     | HIMATI  |       |
+
+### Jobs table
+
+		| Field    | Type        | Null | Key | Default | Extra          |
+		|----------|-------------|------|-----|---------|----------------|
+		| job_id   | int(11)     | NO   | PRI | NULL    | auto_increment |
+		| job_name | varchar(30) | NO   |     | NULL    |                |
+		
+## Role guide account
+
+		`master`, using for the administrator.
+		`general` as ordinary or voter account.
 
 # REST API
 
