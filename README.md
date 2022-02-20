@@ -406,7 +406,7 @@ JWT tokens will expire 30 minutes after tokens are generated
 		const candiateID = 1
 		
 		axios.post(
-			'http://localhost:8080/accounts/vote' + candidateID,
+			'http://localhost:8080/accounts/vote/' + candidateID,
 			{ headers: { authorization: 'YOUR JWT TOKEN'} }
 		)
 
@@ -519,10 +519,10 @@ JWT tokens will expire 30 minutes after tokens are generated
 			"response": {
 				"dashboard": {
 					{
-				   "candidates": 4,
-				   "participants": 6,
-				   "incomingVote": 2,
-				   "participations": "32.56%""
+						"candidates": 4,
+						"participants": 6,
+						"incomingVote": 2,
+						"participations": "32.56%""
 					}
 				}
 			},
@@ -549,13 +549,11 @@ JWT tokens will expire 30 minutes after tokens are generated
 			"response": {
 				"quickCount": [
 					{
-						{
-							"candidate": "Fulan - Fulanah",
-							"candidateNumber": 1,
-							"vote": 9,
-							"decimal": 42.77777778,
-							"percent": "42.88%""
-						}
+						"candidate": "Fulan - Fulanah",
+						"candidateNumber": 1,
+						"vote": 9,
+						"decimal": 42.77777778,
+						"percent": "42.88%""
 					}
 				]
 			},
