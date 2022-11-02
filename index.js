@@ -4,6 +4,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
+const fileUpload = require('express-fileupload')
 const database = require('./app/database')
 const routes = require('./app/routes')
 
@@ -14,7 +15,9 @@ const PORT = process.env.PORT || 3000
 // Setup
 app.use( bodyParser.urlencoded({ extended: true }) )
 app.use( bodyParser.json() )
+app.use( fileUpload() )
 app.use( cors() )
+app.use( express.static( process.cwd() + '/public' ) )
 routes( app )
 
 // Database connection
