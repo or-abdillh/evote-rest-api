@@ -34,10 +34,5 @@ module.exports = app => {
 
     app.route('/admin/event')
         .get( eventController.index )
-        .post( eventController.create )
-
-
-    app.route('/admin/event/:id')
-        .get( eventController.show )
         .put( eventController.update )
 }
