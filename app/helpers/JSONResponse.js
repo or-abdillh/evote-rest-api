@@ -20,7 +20,11 @@ module.exports = {
     },
 
     forbidden(data = [], res) {
-        res.status(403).send(generateBody(501, 'Not Allowed Access', data))
+        res.status(403).send(generateBody(403, 'Not Allowed Access', data))
+    },
+
+    badRequest(data = [], res) {
+        res.status(400).send(generateBody(400, 'Bad Request', data))
     },
 
     serverError(data = [], res) {

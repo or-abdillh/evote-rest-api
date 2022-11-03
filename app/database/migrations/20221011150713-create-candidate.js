@@ -24,6 +24,12 @@ module.exports = {
       candidate_number: {
         type: Sequelize.INTEGER
       },
+      vision: {
+        type: Sequelize.STRING
+      },
+      mission: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

@@ -23,20 +23,17 @@ const sequelize = new Sequelize(
     
 // Import models
 const models = [
-    require('./models/candidate.js'), require('./models/event.js'), require('./models/job.js'), require('./models/user.js')
+    require('./models/candidate.js'), require('./models/event.js'), require('./models/user.js')
 ]
 
 // Init model
 for (const model of models) model(sequelize, DataTypes)
 
 // Parsing models
-const { Candidate, Job, User } = sequelize.models
+const { Candidate, User } = sequelize.models
 
 // Define accociate
 Candidate.hasMany(User, { foreignKey: 'id' ,as: 'candidate_id' })
-Job.hasMany(User, { foreignKey: 'id', as: 'job_id' })
-
 User.belongsTo(Candidate, { foreignKey: 'candidate_id' })
-User.belongsTo(Job, { foreignKey: 'job_id' })
 
 module.exports = sequelize
