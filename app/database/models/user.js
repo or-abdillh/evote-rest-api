@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
     token: DataTypes.STRING,
     status: DataTypes.BOOLEAN,
     candidate_id: DataTypes.NUMBER,
-    job_id: DataTypes.NUMBER,
+    job: DataTypes.STRING,
     gender: DataTypes.STRING,
     role: DataTypes.STRING,
     timestamp: DataTypes.DATE

@@ -1,19 +1,14 @@
 'use strict'
 
 const md5 = require('md5')
-const { User, Job } = require('../database').models
+const { User } = require('../database').models
 const { success, serverError, notFound } = require('../helpers/JSONResponse.js')
 
 module.exports = {
 
     async index(req, res) {
         try {
-            const users = await User.findAll({
-                include: {
-                    model: Job,
-                    attributes: ['name']
-                }
-            })
+            const users = await User.findAll()
             success(users, res)
         } catch(err) { serverError(err, res) }
     },
@@ -22,13 +17,7 @@ module.exports = {
         // get user id 
         const { id } = req.params
         try {
-            const user = await User.findOne({
-                where: { id },
-                include: {
-                    model: Job,
-                    attributes: ['name']
-                }
-            })
+            const user = await User.findOne({ where: { id } })
             if ( user !== null ) success(user, res)
             else notFound('User not found', res)
         } catch(err) { serverError(err, res) }
@@ -36,12 +25,11 @@ module.exports = {
 
     async create(req, res) {
         // parse body 
-        const { username, password, fullname, job_id, gender  } = req.body
+        const { username, password, fullname, job, gender  } = req.body
         try {
-            await User.create({ username, password: md5(password), fullname, job_id, gender })
+            await User.create({ username, password: md5(password), fullname, job, gender })
             success('Create new user success', res)
         } catch(err) { serverError(err, res) }
-        
     },
 
     async destroy(req, res) {
@@ -68,8 +56,8 @@ module.exports = {
             const user = await User.findOne({ where: { id } })
             if ( user !== null ) {
                 // get form
-                const { username, password, fullname, job_id, gender  } = req.body
-                await User.update({ username, password: md5(password), job_id, gender }, {
+                const { username, password, fullname, job, gender  } = req.body
+                await User.update({ username, password: md5(password), job, gender }, {
                     where: { id }
                 })
                 success('Update user record success', res)

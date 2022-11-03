@@ -37,14 +37,8 @@ module.exports = {
           key: 'id'
         }
       },
-      job_id: {
-        type: Sequelize.INTEGER,
-        onDelete: 'CASCADE',
-        onUpdate: 'CASCADE',
-        references: {
-          model: 'Jobs',
-          key: 'id'
-        }
+      job: {
+        type: Sequelize.STRING
       },
       gender: {
         type: Sequelize.STRING
