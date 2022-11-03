@@ -22,14 +22,15 @@ module.exports = {
         // get user id 
         const { id } = req.params
         try {
-            const users = await User.findAll({
+            const user = await User.findOne({
                 where: { id },
                 include: {
                     model: Job,
                     attributes: ['name']
                 }
             })
-            success(users[0], res)
+            if ( user !== null ) success(user, res)
+            else notFound('User not found', res)
         } catch(err) { serverError(err, res) }
     },
 
@@ -47,9 +48,11 @@ module.exports = {
         // Get id user from request
         const { id } = req.params
         try {
-            const deleted = await User.destroy({ where: { id } })
-            if ( deleted ) success('Delete user from record success', res)
-            else notFound('Cannot find user', res) 
+            const user = await User.findOne({ where: { id } })
+            if ( user !== null ) {
+                await User.destroy({ where: { id } })
+                success('Delete user from record success', res)
+            } else notFound('Cannot find user', res) 
         } catch(err) { serverError(err, res) }
     },
 
@@ -61,14 +64,16 @@ module.exports = {
     async update(req, res) {
         // get id
         const { id } = req.params
-        // get form
-        const { username, password, fullname, job_id, gender  } = req.body
         try {
-            const updated = await User.update({ username, password: md5(password), job_id, gender }, {
-                where: { id }
-            })
-            if ( updated ) success('Update user record success', res)
-            else notFound('User not found', res)
+            const user = await User.findOne({ where: { id } })
+            if ( user !== null ) {
+                // get form
+                const { username, password, fullname, job_id, gender  } = req.body
+                await User.update({ username, password: md5(password), job_id, gender }, {
+                    where: { id }
+                })
+                success('Update user record success', res)
+            } else notFound('User not found', res) 
         } catch(err) { serverError(err, res) }
     }
 }

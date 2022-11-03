@@ -40,8 +40,11 @@ const candidateController = {
 
     async show(req, res) {
         const { id } = req.params
-        const candidate = await Candidate.findOne({ where: { id } })
-        success(candidate, res)
+        try {
+            const candidate = await Candidate.findOne({ where: { id } })
+            if ( candidate !== null ) success(candidate, res)
+            else notFound('Candidate not found', res) 
+        } catch(err) { serverError(err, res) }
     },
 
     async create(req, res) {
@@ -69,42 +72,42 @@ const candidateController = {
     async update(req, res) {
         // get id
         const { id } = req.params
-        
-        // get form
-        const { chairman_name, vice_chairman_name, candidate_number, vision, mission } = req.body
-        
-        // Check files
-        if ( !req.files || Object.keys(req.files).length === 0 ) {
-            // Dont re upload image
-            const updated = await Candidate.update({ chairman_name, vice_chairman_name, candidate_number, vision, mission }, {
-                where: { id }
-            })
-            if ( updated ) success('Success update candidate data', res)
-            else notFound('Candidate data not found', res)
-        } else {
-            // Reupload file image
+        try {
             const candidate = await Candidate.findOne({ where: { id } })
-            
-            // Reupload
-            candidateController
-                .uploadImages(req.files, async paths => {
-                    // save to database
-                    try {
-                        await Candidate.update({
-                            chairman_name, vice_chairman_name, candidate_number, vision, mission,
-                            chairman_image: paths.chairman_image,
-                            vice_chairman_image: paths.vice_chairman_image
-                        }, {
-                            where: { id }
+            if ( candidate !== null ) {
+                // get form
+                const { chairman_name, vice_chairman_name, candidate_number, vision, mission } = req.body
+                
+                // Check files
+                if ( !req.files || Object.keys(req.files).length === 0 ) {
+                    // Dont re upload image
+                    const updated = await Candidate.update({ chairman_name, vice_chairman_name, candidate_number, vision, mission }, {
+                        where: { id }
+                    })
+                    if ( updated ) success('Success update candidate data', res)
+                    else notFound('Candidate data not found', res)
+                } else {
+                    // Reupload file image
+                    const candidate = await Candidate.findOne({ where: { id } })
+                    
+                    // Reupload
+                    candidateController
+                        .uploadImages(req.files, async paths => {
+                            // save to database
+                            await Candidate.update({
+                                    chairman_name, vice_chairman_name, candidate_number, vision, mission,
+                                    chairman_image: paths.chairman_image,
+                                    vice_chairman_image: paths.vice_chairman_image
+                                }, { where: { id }
+                            })
+                            success('Success update candidate data', res)
                         })
-                        success('Success update candidate data', res)
-                    } catch(err) { serverError(err, res) }
-                })
-
-            // Remove old files
-            candidateController
-                .deleteImages([ candidate.chairman_image, candidate.vice_chairman_image ])
-        }
+                    // Remove old files
+                    candidateController
+                        .deleteImages([ candidate.chairman_image, candidate.vice_chairman_image ])
+                }
+            } else notFound('Candidate not found', res)
+        } catch(err) { serverError(err, res) }
     },
 
     async destroy(req, res) {
