@@ -1,7 +1,11 @@
 'use strict'
 
 // Controllers 
-const { homeController, userController, candidateController } = require('../controller')
+const { 
+    homeController, 
+    userController, 
+    candidateController, 
+    eventController } = require('../controller')
 
 module.exports = app => {
 
@@ -27,4 +31,13 @@ module.exports = app => {
         .get( candidateController.show )
         .put( candidateController.update )
         .delete( candidateController.destroy )
+
+    app.route('/admin/event')
+        .get( eventController.index )
+        .post( eventController.create )
+
+
+    app.route('/admin/event/:id')
+        .get( eventController.show )
+        .put( eventController.update )
 }
