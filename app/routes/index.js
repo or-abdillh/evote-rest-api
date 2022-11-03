@@ -17,6 +17,10 @@ module.exports = app => {
         .post( userController.create )
         .delete( userController.destroyAll )
     
+    app.route('/admin/user/excel')
+        .post( userController.excelUpload )
+        .get( userController.excelDownload )
+
     app.route('/admin/user/:id')
         .get( userController.show )
         .delete( userController.destroy )

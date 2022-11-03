@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3000
 // Setup
 app.use( bodyParser.urlencoded({ extended: true }) )
 app.use( bodyParser.json() )
-app.use( fileUpload() )
+app.use( fileUpload( { useTempFiles: true, tempFileDir: process.cwd() + '/public/tmp/' } ) )
 app.use( cors() )
 app.use( express.static( process.cwd() + '/public' ) )
 routes( app )
