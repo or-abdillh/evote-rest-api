@@ -8,6 +8,10 @@ const fileUpload = require('express-fileupload')
 const database = require('./app/database')
 const routes = require('./app/routes')
 
+// Middlewares
+const authenticated = require('./app/middleware/auhenticated.js')
+const roles = require('./app/middleware/roles.js')
+
 // Initialization
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -18,6 +22,13 @@ app.use( bodyParser.json() )
 app.use( fileUpload( { useTempFiles: true, tempFileDir: process.cwd() + '/public/tmp/' } ) )
 app.use( cors() )
 app.use( express.static( process.cwd() + '/public' ) )
+
+// Apply middlewares
+app.use( ['/admin', '/user'], authenticated )
+app.use( '/admin', roles.hasRole('master') )
+app.use( '/user', roles.hasRole('general') )
+
+// route
 routes( app )
 
 // Database connection

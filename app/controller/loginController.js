@@ -24,7 +24,7 @@ module.exports = {
             // not authenticated
             if ( user === null ) return notFound('username or password is wrong', res)
             // authenticated
-            jwt.sign({ username, password }, process.env.JWT_SECRET_KEY, { expiresIn: '1h' }, 
+            jwt.sign({ username, password, role: user.role }, process.env.JWT_SECRET_KEY, { expiresIn: '1h' }, 
                 async (err, token) => {
                     if (err) return serverError(err, res)
                     user.token = token
@@ -48,5 +48,9 @@ module.exports = {
             await user.save()
             success('user has logout', res)
         } catch(err) { serverError(err, res) }
+    },
+
+    async authenticatedUser(req, res) {
+        success('user has authenticated', res)
     }
 }
