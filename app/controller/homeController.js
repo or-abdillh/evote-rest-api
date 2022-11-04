@@ -30,6 +30,29 @@ module.exports = {
     },
 
     async getQuickCount(req, res) {
+        // return array of candidates contain detail and quick count
+        try {
+            // candidates
+            const candidates = await Candidate.findAll({ attributes: ['id', 'chairman_name', 'vice_chairman_name', 'candidate_number'] })
+            const users = await User.findAll({
+                attributes: ['candidate_id'],
+                where: { role: 'general' }
+            })
 
+            // loop candidates
+            const counts = candidates.map(candidate => {
+                const data = candidate.dataValues
+                // vote
+                const vote = users.filter(user => user.dataValues.candidate_id === data.id).length
+                return {
+                    candidate: `${ data.chairman_name } - ${ data.vice_chairman_name }`,
+                    number: data.candidate_number,
+                    decimal: ( 100 / users.length ) * vote,
+                    percent: (( 100 / users.length ) * vote).toFixed(1) + '%'. 
+                    vote,
+                }
+            })
+            success(counts, res)
+        } catch(err) { serverError(err, res) }
     }
 }
