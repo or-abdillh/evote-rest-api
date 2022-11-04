@@ -12,6 +12,9 @@ module.exports = app => {
     app.route('/').get( homeController.index )
 
     // Admin 
+    app.route('/admin/dashboard').get( homeController.getDashboard )
+    app.route('/admin/quick-count').get( homeController.getQuickCount )
+
     app.route('/admin/user')
         .get( userController.index )
         .post( userController.create )
@@ -39,4 +42,8 @@ module.exports = app => {
     app.route('/admin/event')
         .get( eventController.index )
         .put( eventController.update )
+
+    // user
+    app.route('/user/vote/:user_id/:candidate_id')
+        .put( userController.voting )
 }
