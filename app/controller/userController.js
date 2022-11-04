@@ -4,8 +4,8 @@ const fs = require('fs')
 const md5 = require('md5')
 const readExcel = require('read-excel-file/node')
 const exceljs = require('exceljs')
-const { User } = require('../database').models
-const { success, serverError, notFound, badRequest } = require('../helpers/JSONResponse.js')
+const { User, Event, Candidate } = require('../database').models
+const { success, serverError, notFound, badRequest, forbidden } = require('../helpers/JSONResponse.js')
 
 module.exports = {
 
@@ -66,6 +66,40 @@ module.exports = {
                 success('Update user record success', res)
             } else notFound('User not found', res) 
         } catch(err) { serverError(err, res) }
+    },
+
+    async voting(req, res) {
+        // get id at params
+        const { user_id, candidate_id } = req.params
+
+        // validate event
+        const event = await Event.findOne({
+            attributes: ['start', 'end']
+        })
+        
+        // validate is event available
+        const now = new Date().getTime()
+        if ( now >= new Date(event.start).getTime() && now <= new Date(event.end).getTime() ) {
+            try {
+                // validate candidate id
+                const candidate = await Candidate.findOne({ where: { id: candidate_id } })
+                if ( candidate !== null ) {
+                    // validate user
+                    const user = await User.findOne({ where: { id: user_id } })
+                    if ( user !== null ) {
+                        if ( user.status ) forbidden('You cant submit vote again', res)
+                        else {
+                            // submit vote
+                            user.candidate_id = candidate_id
+                            user.status = true
+                            user.timestamp = new Date()
+                            await user.save()
+                            success('Success submit vote', res)
+                        }
+                    } else notFound('User not found', res)
+                } else notFound('Candidate data not found', res)
+            } catch(err) { serverError(err, res) }
+        } else forbidden('Event not available for this time, rty again later', res)
     },
 
     async excelUpload(req, res) {

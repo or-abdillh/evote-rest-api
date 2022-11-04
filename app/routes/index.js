@@ -39,4 +39,8 @@ module.exports = app => {
     app.route('/admin/event')
         .get( eventController.index )
         .put( eventController.update )
+
+    // user
+    app.route('/user/vote/:user_id/:candidate_id')
+        .put( userController.voting )
 }
