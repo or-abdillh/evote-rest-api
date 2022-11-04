@@ -5,13 +5,18 @@ const {
     homeController, 
     userController, 
     candidateController, 
-    eventController } = require('../controller')
+    eventController,
+    loginController } = require('../controller')
 
 module.exports = app => {
 
+    // Main
     app.route('/').get( homeController.index )
-
+    app.route('/login').post( loginController.userLogin )
+    app.route('/logout').put( loginController.userLogout )
+    
     // Admin 
+    app.route('/admin/auth').get( loginController.authenticatedUser )
     app.route('/admin/dashboard').get( homeController.getDashboard )
     app.route('/admin/quick-count').get( homeController.getQuickCount )
 
@@ -20,7 +25,7 @@ module.exports = app => {
         .post( userController.create )
         .delete( userController.destroyAll )
     
-    app.route('/admin/user/excel')
+        app.route('/admin/user/excel')
         .post( userController.excelUpload )
         .get( userController.excelDownload )
 
@@ -44,6 +49,9 @@ module.exports = app => {
         .put( eventController.update )
 
     // user
-    app.route('/user/vote/:user_id/:candidate_id')
-        .put( userController.voting )
+    app.route('/user/auth').get( loginController.authenticatedUser )
+    app.route('/user/profile/:id').get( userController.show )
+    app.route('/user/candidate').get( candidateController.index )
+    app.route('/user/event').get( eventController.index )
+    app.route('/user/vote/:user_id/:candidate_id').put( userController.voting )
 }
