@@ -5,11 +5,15 @@ const {
     homeController, 
     userController, 
     candidateController, 
-    eventController } = require('../controller')
+    eventController,
+    loginController } = require('../controller')
 
 module.exports = app => {
 
+    // Main
     app.route('/').get( homeController.index )
+    app.route('/login').post( loginController.userLogin )
+    app.route('/logout').put( loginController.userLogout )
 
     // Admin 
     app.route('/admin/dashboard').get( homeController.getDashboard )
