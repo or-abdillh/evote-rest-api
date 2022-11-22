@@ -60,7 +60,7 @@ module.exports = {
             if ( user !== null ) {
                 // get form
                 const { username, password, fullname, job, gender  } = req.body
-                await User.update({ username, password: md5(password), job, gender }, {
+                await User.update({ username, fullname, password: md5(password), job, gender }, {
                     where: { id }
                 })
                 success('Update user record success', res)

@@ -48,7 +48,7 @@ module.exports = {
                     candidate: `${ data.chairman_name } - ${ data.vice_chairman_name }`,
                     number: data.candidate_number,
                     decimal: ( 100 / users.length ) * vote,
-                    percent: (( 100 / users.length ) * vote).toFixed(1) + '%'. 
+                    percent: ( 100 / users.length ) * vote === 0 ? '0%' : (( 100 / users.length ) * vote).toFixed(1) + '%', 
                     vote,
                 }
             })
