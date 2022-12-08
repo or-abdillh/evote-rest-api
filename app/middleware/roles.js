@@ -19,7 +19,6 @@ module.exports = {
                     if (err) return forbidden('your token not verified', res)
                     else {
                         // validate role
-                        console.log(decoded)
                         if ( decoded.role === role ) next()
                         else forbidden('you not have access for this resource', res)
                     }

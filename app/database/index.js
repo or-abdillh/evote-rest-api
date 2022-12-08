@@ -16,7 +16,8 @@ const dialectOptions = env === 'dev' ? {  } : {
 const sequelize = new Sequelize(
     process.env.DATABASE_URL, {
         dialect: 'postgres',
-        logging: env === 'dev' ? true : false,
+        // logging: env === 'dev' ? true : false,
+        logging: false,
         dialectOptions
     }
 )

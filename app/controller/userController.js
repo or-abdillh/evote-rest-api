@@ -99,7 +99,7 @@ module.exports = {
                     } else notFound('User not found', res)
                 } else notFound('Candidate data not found', res)
             } catch(err) { serverError(err, res) }
-        } else forbidden('Event not available for this time, rty again later', res)
+        } else forbidden('Event not available for this time, try again later', res)
     },
 
     async excelUpload(req, res) {

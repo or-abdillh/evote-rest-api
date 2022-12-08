@@ -4,32 +4,47 @@ const fs = require('fs')
 const path = require('path')
 const { Candidate } = require('../database').models
 const { success, notFound, serverError } = require('../helpers/JSONResponse.js')
+const cloudinary = require('../config/cloudinary.js')
 
 const candidateController = {
 
-    uploadImages(files, callback) {
+    async uploadImages(files, res, callback) {
         // paths upload
         const paths = {}
 
         for ( const file in files ) {
             // Move file
             const image = files[file]
-            const format = image.name.split('.')
-            const path = `storage/${ file }_${ new Date().getTime() }.${ format[format.length - 1] }`
-            const destination = `${ process.cwd() }/public/${ path }`
-            
-            image.mv(destination, async err => {
-                if (err) return serverError(err, res)
-            })
-            paths[file] = path
-        }
 
+            // Get file detail
+            const path = image.tempFilePath
+            const format = image.name.split('.')
+            const filename = `${ file }-${ new Date().getTime() }`
+
+            // Upload into cloudinary
+            console.log(filename)
+            try {
+                const uploaded = await cloudinary.uploader.upload(path, { public_id: filename })
+                paths[file] = uploaded.secure_url
+            } catch(err) { serverError(err, res) }
+        }
         callback(paths)
     },
 
     deleteImages(files) {
         for ( const file of files ) {
-            if ( file !== null ) fs.unlinkSync(`${ process.cwd() }/public/${ file }`)
+            if ( file !== null ) {
+                // Get public_id 
+                const fileInArray = file.split('/')
+                let public_id = fileInArray[ fileInArray.length - 1 ]
+
+                // remove extension
+                public_id = public_id.split('.')[0]
+
+                cloudinary.uploader
+                    .destroy( public_id )
+                        .then( res => console.log(res) )
+            }
         }
     },
 
@@ -55,7 +70,7 @@ const candidateController = {
         if ( !req.files || Object.keys(req.files).length === 0 ) return notFound('Files image not found', res)
         
         candidateController
-            .uploadImages(req.files, async paths => {
+            .uploadImages(req.files, res, async paths => {
                 // save to database
                 try {
                     await Candidate.create({

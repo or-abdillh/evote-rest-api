@@ -11,6 +11,7 @@ const routes = require('./app/routes')
 // Middlewares
 const authenticated = require('./app/middleware/auhenticated.js')
 const roles = require('./app/middleware/roles.js')
+const logger = require('./app/middleware/logger.js')
 
 // Initialization
 const app = express()
@@ -27,6 +28,7 @@ app.use( express.static( process.cwd() + '/public' ) )
 app.use( ['/admin', '/user'], authenticated )
 app.use( '/admin', roles.hasRole('master') )
 app.use( '/user', roles.hasRole('general') )
+app.use( logger )
 
 // route
 routes( app )
