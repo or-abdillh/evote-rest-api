@@ -1,0 +1,6 @@
+DATABASE_URL=postgresql://user:password@host:port/database
+JWT_SECRET_KEY=random
+
+CLOUDINARY_CLOUD_NAME=your-cloud-name
+CLOUDINARY_API_KEY=api-key-from-your-account
+CLOUDINARY_API_SECRET=api-secret-from-your-account

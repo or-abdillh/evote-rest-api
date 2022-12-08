@@ -1,0 +1,25 @@
+[22/11/2022 23.17.27] [200 - OK] /user/event GET 336,246ms
+[22/11/2022 23.18.29] [200 - OK] /user/event GET 922,828ms
+[8/12/2022 19.40.33] [200 - OK] / GET 195,597ms
+[8/12/2022 19.40.55] [200 - OK] /login POST 1.452,08ms
+[8/12/2022 19.43.57] [404 - Not Found] /admin/candidate POST 14,41ms
+[8/12/2022 19.56.55] [200 - OK] /admin/candidate POST 7.500,965ms
+[8/12/2022 19.57.37] [200 - OK] /admin/candidate GET 280,081ms
+[8/12/2022 20.19.51] [200 - OK] /admin/candidate/2 GET 327,055ms
+[8/12/2022 20.20.07] [200 - OK] /admin/candidate/2 DELETE 1.181,715ms
+[8/12/2022 20.23.05] [200 - OK] /admin/candidate/1 DELETE 576,076ms
+[8/12/2022 20.23.24] [200 - OK] /admin/candidate/ POST 3.571,235ms
+[8/12/2022 20.24.02] [200 - OK] /admin/candidate/3 GET 240,006ms
+[8/12/2022 20.24.36] [200 - OK] /admin/candidate/3 DELETE 472,288ms
+[8/12/2022 20.26.55] [200 - OK] /admin/candidate/ POST 4.259,736ms
+[8/12/2022 20.27.03] [200 - OK] /admin/candidate/4 GET 247,603ms
+[8/12/2022 20.28.11] [200 - OK] /admin/candidate/ POST 3.310,487ms
+[8/12/2022 20.28.20] [200 - OK] /admin/candidate/5 GET 257,78ms
+[8/12/2022 20.29.04] [200 - OK] /admin/candidate/5 DELETE 656,019ms
+[8/12/2022 21.04.07] [200 - OK] /login POST 1.515,828ms
+[8/12/2022 21.04.53] [200 - OK] /admin/candidate POST 5.904,236ms
+[8/12/2022 21.05.26] [200 - OK] /admin/candidate/6 GET 259,837ms
+[8/12/2022 21.05.44] [200 - OK] /admin/candidate/6 DELETE 469,393ms
+[8/12/2022 21.06.18] [404 - Not Found] /admin/candidate/7 POST 8,005ms
+[8/12/2022 21.06.30] [200 - OK] /admin/candidate/ POST 3.594,945ms
+[8/12/2022 21.06.38] [200 - OK] /admin/candidate/7 DELETE 496,264ms
