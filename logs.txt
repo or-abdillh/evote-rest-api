@@ -23,3 +23,10 @@
 [8/12/2022 21.06.18] [404 - Not Found] /admin/candidate/7 POST 8,005ms
 [8/12/2022 21.06.30] [200 - OK] /admin/candidate/ POST 3.594,945ms
 [8/12/2022 21.06.38] [200 - OK] /admin/candidate/7 DELETE 496,264ms
+[9/12/2022 09.28.03] [404 - Not Found] /auth GET 7,629ms
+[9/12/2022 09.28.12] [404 - Not Found] /auth POST 6,349ms
+[9/12/2022 09.28.30] [404 - Not Found] /auth POST 1,062ms
+[9/12/2022 09.46.10] [200 - OK] /login POST 628,111ms
+[9/12/2022 09.46.29] [404 - Not Found] /login POST 1.493,103ms
+[9/12/2022 09.51.54] [200 - OK] /login POST 634,957ms
+[9/12/2022 09.52.23] [200 - OK] /admin/auth GET 4,184ms

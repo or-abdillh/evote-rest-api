@@ -1,33 +1,35 @@
 'use strict'
 
-const generateBody = (code, message, data = []) => {
-    return JSON.stringify({
-        status: code >= 200 && code < 300 ? true : false,
-        code,
-        message,
-        results: data
-    })
+const generateBody = (res, code, message, data = []) => {
+    res.status(code).send(
+        JSON.stringify({
+            status: code >= 200 && code < 300 ? true : false,
+            code,
+            message,
+            results: data
+        })
+    )
 }
 
 module.exports = {
 
     success(data, res) {
-        res.status(200).send(generateBody(200, 'Success', data))
+        generateBody(res, 200, 'Success', data)
     },
 
     notFound(data = [], res) {
-        res.status(404).send(generateBody(404, 'Not Found', data))
+        generateBody(res, 404, 'Not Found', data)
     },
 
     forbidden(data = [], res) {
-        res.status(403).send(generateBody(403, 'Not Allowed Access', data))
+        generateBody(res, 403, 'Not Allowed Access', data)
     },
 
     badRequest(data = [], res) {
-        res.status(400).send(generateBody(400, 'Bad Request', data))
+        generateBody(res, 400, 'Bad Request', data)
     },
 
     serverError(data = [], res) {
-        res.status(501).send(generateBody(501, 'Internal Server Error', data))
+        generateBody(res, 501, 'Internal Server Error', data)
     }
 }
