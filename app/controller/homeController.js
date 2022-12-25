@@ -33,7 +33,12 @@ module.exports = {
         // return array of candidates contain detail and quick count
         try {
             // candidates
-            const candidates = await Candidate.findAll({ attributes: ['id', 'chairman_name', 'vice_chairman_name', 'candidate_number'] })
+            const candidates = await Candidate.findAll({ 
+                attributes: ['id', 'chairman_name', 'vice_chairman_name', 'candidate_number'],
+                order: [
+                    ['candidate_number', 'ASC']
+                ]
+            })
             const users = await User.findAll({
                 attributes: ['candidate_id'],
                 where: { role: 'general' }

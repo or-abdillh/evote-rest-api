@@ -30,3 +30,1698 @@
 [9/12/2022 09.46.29] [404 - Not Found] /login POST 1.493,103ms
 [9/12/2022 09.51.54] [200 - OK] /login POST 634,957ms
 [9/12/2022 09.52.23] [200 - OK] /admin/auth GET 4,184ms
+[24/12/2022 13.42.22] [200 - OK] / GET 17,39ms
+[24/12/2022 15.11.39] [404 - Not Found] /event GET 5,996ms
+[24/12/2022 15.15.02] [404 - Not Found] /event GET 93,116ms
+[24/12/2022 15.15.25] [404 - Not Found] /event GET 6,918ms
+[24/12/2022 15.16.48] [404 - Not Found] /event GET 5,772ms
+[24/12/2022 15.18.08] [404 - Not Found] /event GET 6,89ms
+[24/12/2022 15.19.36] [404 - Not Found] /event GET 9,073ms
+[24/12/2022 15.22.17] [404 - Not Found] /event GET 8,145ms
+[24/12/2022 15.22.21] [404 - Not Found] /event GET 2,907ms
+[24/12/2022 15.22.44] [404 - Not Found] /event GET 1,062ms
+[24/12/2022 15.29.45] [404 - Not Found] /login POST 1.814,204ms
+[24/12/2022 15.30.05] [404 - Not Found] /login POST 271,581ms
+[24/12/2022 15.30.09] [404 - Not Found] /login POST 3,083ms
+[24/12/2022 15.33.04] [200 - OK] /login POST 286,497ms
+[24/12/2022 15.33.14] [200 - OK] /admin/auth GET 2,538ms
+[24/12/2022 15.33.58] [200 - OK] /admin/auth GET 1,393ms
+[24/12/2022 15.34.04] [200 - OK] /admin/auth GET 0,726ms
+[24/12/2022 15.34.24] [200 - OK] /admin/auth GET 1,025ms
+[24/12/2022 15.34.30] [200 - OK] /admin/auth GET 1,071ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,649ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,883ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,613ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 2,561ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,754ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 1,397ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,588ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,991ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,818ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 2,809ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,781ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 1,67ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,747ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,799ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 1,112ms
+[24/12/2022 15.34.31] [200 - OK] /admin/auth GET 0,81ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,785ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,932ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 1,038ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 1,03ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,729ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,79ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,67ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,967ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,612ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,741ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,667ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,631ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 1,05ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,628ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 0,686ms
+[24/12/2022 15.34.32] [200 - OK] /admin/auth GET 1,834ms
+[24/12/2022 15.34.33] [200 - OK] /admin/auth GET 0,538ms
+[24/12/2022 15.34.33] [200 - OK] /admin/auth GET 0,898ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,686ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,651ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,659ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,788ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,705ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,727ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,664ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,68ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,996ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,786ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 2,228ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 1,161ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,715ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,695ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,725ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,868ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,77ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,647ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 0,759ms
+[24/12/2022 15.34.34] [200 - OK] /admin/auth GET 1,853ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,627ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,609ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,643ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,62ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,713ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 1,741ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,538ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,702ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,602ms
+[24/12/2022 15.34.35] [200 - OK] /admin/auth GET 0,871ms
+[24/12/2022 15.34.38] [200 - OK] /admin/auth GET 0,624ms
+[24/12/2022 15.34.39] [200 - OK] /admin/auth GET 0,493ms
+[24/12/2022 15.34.39] [200 - OK] /admin/auth GET 0,467ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 1,064ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 1,676ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 0,506ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 0,805ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 0,916ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 1,201ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 0,938ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 0,87ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 0,897ms
+[24/12/2022 15.34.40] [200 - OK] /admin/auth GET 0,627ms
+[24/12/2022 15.34.41] [200 - OK] /admin/auth GET 0,769ms
+[24/12/2022 15.34.42] [200 - OK] /admin/auth GET 0,594ms
+[24/12/2022 15.34.42] [200 - OK] /admin/auth GET 0,75ms
+[24/12/2022 15.34.42] [200 - OK] /admin/auth GET 0,643ms
+[24/12/2022 15.34.42] [200 - OK] /admin/auth GET 0,606ms
+[24/12/2022 15.34.42] [200 - OK] /admin/auth GET 0,633ms
+[24/12/2022 15.34.42] [200 - OK] /admin/auth GET 0,595ms
+[24/12/2022 15.34.42] [200 - OK] /admin/auth GET 0,668ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 1,074ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,928ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,505ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,645ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 1,056ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 1,037ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,828ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,832ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 1,649ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 1,031ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,794ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,544ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,873ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,779ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 2,286ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 1,103ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,694ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,761ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,614ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,844ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 2,097ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,568ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,743ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,446ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,751ms
+[24/12/2022 15.34.43] [200 - OK] /admin/auth GET 0,547ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,531ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,578ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,616ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,944ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,701ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,638ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,884ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,528ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,559ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,614ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,576ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,858ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,583ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,471ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,501ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,489ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,563ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 1,57ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,571ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,479ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,638ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 1,653ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,454ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,524ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,463ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,472ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,49ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,692ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,493ms
+[24/12/2022 15.34.44] [200 - OK] /admin/auth GET 0,461ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,592ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,625ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,595ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,453ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,559ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,795ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,6ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,595ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,649ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,907ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,453ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,57ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,698ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,811ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,516ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,93ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,585ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,722ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,693ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,995ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,788ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,582ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,704ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,698ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,784ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,792ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,849ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,708ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,688ms
+[24/12/2022 15.34.45] [200 - OK] /admin/auth GET 0,733ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,81ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,73ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,785ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,848ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,736ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,675ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,961ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,456ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,779ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 1,228ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,922ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,763ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 1,12ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,808ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,908ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,623ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,831ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,909ms
+[24/12/2022 15.34.46] [200 - OK] /admin/auth GET 0,646ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 1,535ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,676ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,943ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,721ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,759ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,877ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 1,704ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,71ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,646ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,775ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,486ms
+[24/12/2022 15.34.47] [200 - OK] /admin/auth GET 0,441ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,522ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,808ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,656ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,764ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,556ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,492ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 1,56ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,469ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,682ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,734ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 1,977ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,65ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,788ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 1,631ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 2,034ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,86ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,439ms
+[24/12/2022 15.34.48] [200 - OK] /admin/auth GET 0,642ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,588ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,551ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,77ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,832ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,611ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,747ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,548ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,438ms
+[24/12/2022 15.34.49] [200 - OK] /admin/auth GET 0,454ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 3,619ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 1,067ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,753ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,642ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,914ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,78ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,6ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,809ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,453ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,507ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,433ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,524ms
+[24/12/2022 15.34.50] [200 - OK] /admin/auth GET 0,85ms
+[24/12/2022 15.34.51] [200 - OK] /admin/auth GET 0,649ms
+[24/12/2022 15.34.51] [200 - OK] /admin/auth GET 0,598ms
+[24/12/2022 15.34.51] [200 - OK] /admin/auth GET 0,985ms
+[24/12/2022 15.34.51] [200 - OK] /admin/auth GET 0,748ms
+[24/12/2022 15.34.59] [200 - OK] /admin/auth GET 0,598ms
+[24/12/2022 15.35.15] [200 - OK] /admin/auth GET 0,542ms
+[24/12/2022 15.36.05] [200 - OK] /login POST 1.622,998ms
+[24/12/2022 15.36.05] [200 - OK] /admin/auth GET 0,799ms
+[24/12/2022 15.37.20] [200 - OK] /admin/auth GET 0,625ms
+[24/12/2022 15.37.33] [200 - OK] /login POST 528,677ms
+[24/12/2022 15.37.58] [404 - Not Found] /login POST 168,896ms
+[24/12/2022 15.38.04] [200 - OK] /login POST 5,695ms
+[24/12/2022 15.38.48] [200 - OK] /admin/auth GET 0,678ms
+[24/12/2022 15.38.59] [200 - OK] /login POST 445,181ms
+[24/12/2022 15.38.59] [200 - OK] /admin/auth GET 0,562ms
+[24/12/2022 15.39.13] [200 - OK] /admin/auth GET 0,496ms
+[24/12/2022 15.39.14] [200 - OK] /admin/auth GET 0,487ms
+[24/12/2022 15.39.38] [200 - OK] /admin/auth GET 0,531ms
+[24/12/2022 15.40.04] [200 - OK] /admin/auth GET 0,671ms
+[24/12/2022 15.40.12] [200 - OK] /admin/auth GET 1,078ms
+[24/12/2022 15.40.13] [200 - OK] /admin/auth GET 1,233ms
+[24/12/2022 15.40.49] [200 - OK] /admin/auth GET 0,569ms
+[24/12/2022 15.41.01] [200 - OK] /admin/auth GET 0,517ms
+[24/12/2022 15.42.20] [200 - OK] /admin/auth GET 0,959ms
+[24/12/2022 15.42.26] [200 - OK] /admin/auth GET 0,609ms
+[24/12/2022 15.42.26] [200 - OK] /admin/auth GET 0,725ms
+[24/12/2022 15.42.38] [200 - OK] /admin/auth GET 0,815ms
+[24/12/2022 15.42.48] [200 - OK] /admin/auth GET 0,946ms
+[24/12/2022 15.42.48] [200 - OK] /admin/auth GET 0,534ms
+[24/12/2022 15.43.04] [200 - OK] /admin/auth GET 1,338ms
+[24/12/2022 15.43.07] [200 - OK] /admin/auth GET 0,514ms
+[24/12/2022 15.43.16] [200 - OK] /admin/auth GET 0,681ms
+[24/12/2022 15.43.17] [200 - OK] /admin/auth GET 0,738ms
+[24/12/2022 15.43.50] [200 - OK] /admin/auth GET 0,639ms
+[24/12/2022 15.43.53] [200 - OK] /admin/auth GET 0,586ms
+[24/12/2022 16.06.19] [200 - OK] /login POST 3.755,442ms
+[24/12/2022 16.06.21] [200 - OK] /login POST 36,155ms
+[24/12/2022 16.06.25] [404 - Not Found] /event GET 3.889,536ms
+[24/12/2022 16.08.58] [404 - Not Found] /event GET 46,543ms
+[24/12/2022 16.08.59] [200 - OK] /admin/dashboard GET 674,126ms
+[24/12/2022 16.09.17] [404 - Not Found] /event GET 99,574ms
+[24/12/2022 16.09.17] [200 - OK] /admin/dashboard GET 8,697ms
+[24/12/2022 16.09.21] [404 - Not Found] /event GET 19,964ms
+[24/12/2022 16.09.21] [200 - OK] /admin/dashboard GET 5,805ms
+[24/12/2022 16.09.42] [404 - Not Found] /event GET 1,102ms
+[24/12/2022 16.09.43] [200 - OK] /admin/dashboard GET 5,717ms
+[24/12/2022 16.09.49] [404 - Not Found] /event GET 0,816ms
+[24/12/2022 16.09.49] [200 - OK] /admin/dashboard GET 5,259ms
+[24/12/2022 16.09.52] [404 - Not Found] /event GET 1,374ms
+[24/12/2022 16.09.52] [200 - OK] /admin/dashboard GET 5,329ms
+[24/12/2022 16.09.58] [200 - OK] /admin/dashboard GET 6,351ms
+[24/12/2022 16.10.00] [404 - Not Found] /event GET 0,799ms
+[24/12/2022 16.10.00] [200 - OK] /admin/dashboard GET 17,184ms
+[24/12/2022 16.10.07] [404 - Not Found] /event GET 1,21ms
+[24/12/2022 16.10.07] [200 - OK] /admin/dashboard GET 6,475ms
+[24/12/2022 16.10.48] [404 - Not Found] /event GET 0,951ms
+[24/12/2022 16.10.48] [200 - OK] /admin/dashboard GET 5,352ms
+[24/12/2022 16.10.54] [404 - Not Found] /event GET 0,845ms
+[24/12/2022 16.10.54] [200 - OK] /admin/dashboard GET 5,473ms
+[24/12/2022 16.11.07] [200 - OK] /admin/dashboard GET 5,373ms
+[24/12/2022 16.11.08] [200 - OK] /admin/dashboard GET 7,676ms
+[24/12/2022 16.11.11] [200 - OK] /admin/dashboard GET 5,648ms
+[24/12/2022 16.11.38] [200 - OK] /admin/dashboard GET 49,305ms
+[24/12/2022 16.11.38] [200 - OK] /admin/dashboard GET 5,546ms
+[24/12/2022 16.11.41] [200 - OK] /admin/dashboard GET 5,148ms
+[24/12/2022 16.12.06] [200 - OK] /admin/dashboard GET 33,367ms
+[24/12/2022 16.12.11] [200 - OK] /admin/dashboard GET 37,815ms
+[24/12/2022 16.12.13] [200 - OK] /admin/dashboard GET 30,058ms
+[24/12/2022 16.12.39] [200 - OK] /admin/dashboard GET 5,283ms
+[24/12/2022 16.12.39] [200 - OK] /admin/dashboard GET 4,816ms
+[24/12/2022 16.12.41] [200 - OK] /admin/dashboard GET 10,654ms
+[24/12/2022 16.13.04] [200 - OK] /admin/dashboard GET 5,159ms
+[24/12/2022 16.13.12] [200 - OK] /admin/dashboard GET 4,365ms
+[24/12/2022 16.13.13] [200 - OK] /admin/dashboard GET 4,319ms
+[24/12/2022 16.13.21] [200 - OK] /admin/dashboard GET 15,293ms
+[24/12/2022 16.13.22] [200 - OK] /admin/dashboard GET 5,251ms
+[24/12/2022 16.13.37] [200 - OK] /admin/dashboard GET 6,619ms
+[24/12/2022 16.13.38] [200 - OK] /admin/dashboard GET 4,072ms
+[24/12/2022 16.13.39] [200 - OK] /admin/dashboard GET 4,708ms
+[24/12/2022 16.13.41] [200 - OK] /admin/dashboard GET 5,094ms
+[24/12/2022 16.13.41] [200 - OK] /admin/dashboard GET 5,317ms
+[24/12/2022 16.13.46] [200 - OK] /admin/dashboard GET 4,072ms
+[24/12/2022 16.13.50] [200 - OK] /admin/dashboard GET 5,078ms
+[24/12/2022 16.14.04] [200 - OK] /admin/dashboard GET 4,944ms
+[24/12/2022 16.14.11] [200 - OK] /admin/dashboard GET 8,508ms
+[24/12/2022 16.14.12] [200 - OK] /admin/dashboard GET 4,503ms
+[24/12/2022 16.14.13] [200 - OK] /admin/dashboard GET 3,903ms
+[24/12/2022 16.14.21] [200 - OK] /admin/dashboard GET 4,008ms
+[24/12/2022 16.14.22] [200 - OK] /admin/dashboard GET 3,99ms
+[24/12/2022 16.14.29] [200 - OK] /admin/dashboard GET 20,799ms
+[24/12/2022 16.14.38] [200 - OK] /admin/dashboard GET 8,874ms
+[24/12/2022 16.14.38] [200 - OK] /admin/dashboard GET 8,093ms
+[24/12/2022 16.14.39] [200 - OK] /admin/dashboard GET 16,107ms
+[24/12/2022 16.14.41] [200 - OK] /admin/dashboard GET 3,5ms
+[24/12/2022 16.14.42] [200 - OK] /admin/dashboard GET 3,268ms
+[24/12/2022 16.14.47] [200 - OK] /admin/dashboard GET 47,46ms
+[24/12/2022 16.14.51] [200 - OK] /admin/dashboard GET 5,229ms
+[24/12/2022 16.14.51] [200 - OK] /admin/dashboard GET 3,286ms
+[24/12/2022 16.15.04] [200 - OK] /admin/dashboard GET 5,182ms
+[24/12/2022 16.15.11] [200 - OK] /admin/dashboard GET 4,849ms
+[24/12/2022 16.15.12] [200 - OK] /admin/dashboard GET 3,557ms
+[24/12/2022 16.15.13] [200 - OK] /admin/dashboard GET 7,037ms
+[24/12/2022 16.15.20] [200 - OK] /admin/dashboard GET 4,792ms
+[24/12/2022 16.15.21] [200 - OK] /admin/dashboard GET 4,146ms
+[24/12/2022 16.15.22] [200 - OK] /admin/dashboard GET 7,033ms
+[24/12/2022 16.15.29] [200 - OK] /admin/dashboard GET 4,726ms
+[24/12/2022 16.15.30] [200 - OK] /admin/dashboard GET 3,468ms
+[24/12/2022 16.15.38] [200 - OK] /admin/dashboard GET 10,32ms
+[24/12/2022 16.15.38] [200 - OK] /admin/dashboard GET 9,253ms
+[24/12/2022 16.15.39] [200 - OK] /admin/dashboard GET 6,236ms
+[24/12/2022 16.15.41] [200 - OK] /admin/dashboard GET 3,379ms
+[24/12/2022 16.15.42] [200 - OK] /admin/dashboard GET 3,562ms
+[24/12/2022 16.15.46] [200 - OK] /admin/dashboard GET 3,799ms
+[24/12/2022 16.15.49] [200 - OK] /admin/dashboard GET 4,932ms
+[24/12/2022 16.16.41] [200 - OK] /admin/dashboard GET 6,898ms
+[24/12/2022 16.16.46] [200 - OK] /admin/dashboard GET 5,618ms
+[24/12/2022 16.16.56] [200 - OK] /admin/dashboard GET 7,745ms
+[24/12/2022 16.16.58] [200 - OK] /admin/dashboard GET 3,47ms
+[24/12/2022 16.17.04] [200 - OK] /admin/dashboard GET 3,207ms
+[24/12/2022 16.17.09] [200 - OK] /admin/dashboard GET 32,837ms
+[24/12/2022 16.17.12] [200 - OK] /admin/dashboard GET 5,196ms
+[24/12/2022 16.17.18] [200 - OK] /admin/dashboard GET 3,972ms
+[24/12/2022 16.17.33] [200 - OK] /admin/dashboard GET 5,383ms
+[24/12/2022 16.17.38] [200 - OK] /admin/dashboard GET 3,545ms
+[24/12/2022 16.18.39] [200 - OK] /admin/dashboard GET 6,226ms
+[24/12/2022 16.19.12] [200 - OK] /admin/dashboard GET 6,446ms
+[24/12/2022 16.19.16] [200 - OK] /admin/dashboard GET 20,355ms
+[24/12/2022 16.19.20] [200 - OK] /admin/dashboard GET 4,607ms
+[24/12/2022 16.19.33] [200 - OK] /admin/dashboard GET 6,947ms
+[24/12/2022 16.19.38] [200 - OK] /admin/dashboard GET 4,552ms
+[24/12/2022 16.19.39] [200 - OK] /admin/dashboard GET 3,363ms
+[24/12/2022 16.19.41] [200 - OK] /admin/dashboard GET 5,441ms
+[24/12/2022 16.19.51] [200 - OK] /admin/dashboard GET 5,044ms
+[24/12/2022 16.19.51] [200 - OK] / GET 1,028ms
+[24/12/2022 16.19.56] [404 - Not Found] /admin/quic GET 3,19ms
+[24/12/2022 16.19.56] [200 - OK] /admin/dashboard GET 17,78ms
+[24/12/2022 16.20.02] [200 - OK] /admin/dashboard GET 22,735ms
+[24/12/2022 16.20.02] [200 - OK] /admin/quick-count GET 29,33ms
+[24/12/2022 16.20.11] [200 - OK] /admin/dashboard GET 6,484ms
+[24/12/2022 16.20.11] [200 - OK] /admin/quick-count GET 4,317ms
+[24/12/2022 16.20.12] [200 - OK] /admin/dashboard GET 30,668ms
+[24/12/2022 16.20.17] [200 - OK] /admin/dashboard GET 10,42ms
+[24/12/2022 16.20.19] [200 - OK] /admin/dashboard GET 4,595ms
+[24/12/2022 16.20.19] [200 - OK] /admin/quick-count GET 3,337ms
+[24/12/2022 16.20.20] [200 - OK] /admin/dashboard GET 105,434ms
+[24/12/2022 16.20.31] [200 - OK] /admin/dashboard GET 7,422ms
+[24/12/2022 16.20.31] [200 - OK] /admin/quick-count GET 22,143ms
+[24/12/2022 16.20.33] [200 - OK] /admin/dashboard GET 3,762ms
+[24/12/2022 16.20.38] [200 - OK] /admin/dashboard GET 10,033ms
+[24/12/2022 16.20.38] [200 - OK] /admin/quick-count GET 5,158ms
+[24/12/2022 16.21.22] [200 - OK] /admin/dashboard GET 7,562ms
+[24/12/2022 16.21.22] [200 - OK] /admin/quick-count GET 8,551ms
+[24/12/2022 16.21.38] [200 - OK] /admin/dashboard GET 5,944ms
+[24/12/2022 16.21.38] [200 - OK] /admin/quick-count GET 6,112ms
+[24/12/2022 16.22.23] [200 - OK] /admin/dashboard GET 6,043ms
+[24/12/2022 16.22.23] [200 - OK] /admin/quick-count GET 5,249ms
+[24/12/2022 16.22.38] [200 - OK] /admin/dashboard GET 6,458ms
+[24/12/2022 16.22.38] [200 - OK] /admin/quick-count GET 5,454ms
+[24/12/2022 16.23.23] [200 - OK] /admin/dashboard GET 6,35ms
+[24/12/2022 16.23.23] [200 - OK] /admin/quick-count GET 4,877ms
+[24/12/2022 16.23.38] [200 - OK] /admin/dashboard GET 6,405ms
+[24/12/2022 16.23.38] [200 - OK] /admin/quick-count GET 5,67ms
+[24/12/2022 16.24.23] [200 - OK] /admin/quick-count GET 4,565ms
+[24/12/2022 16.24.23] [200 - OK] /admin/dashboard GET 6,734ms
+[24/12/2022 16.24.38] [200 - OK] /admin/dashboard GET 5,691ms
+[24/12/2022 16.24.38] [200 - OK] /admin/quick-count GET 5,108ms
+[24/12/2022 16.25.23] [200 - OK] /admin/dashboard GET 6,278ms
+[24/12/2022 16.25.23] [200 - OK] /admin/quick-count GET 5,427ms
+[24/12/2022 16.25.38] [200 - OK] /admin/dashboard GET 6,067ms
+[24/12/2022 16.25.38] [200 - OK] /admin/quick-count GET 5,041ms
+[24/12/2022 16.26.21] [200 - OK] /admin/quick-count GET 4,627ms
+[24/12/2022 16.26.21] [200 - OK] /admin/dashboard GET 6,712ms
+[24/12/2022 16.26.26] [200 - OK] /admin/dashboard GET 41,057ms
+[24/12/2022 16.26.26] [200 - OK] /admin/quick-count GET 6,511ms
+[24/12/2022 16.26.41] [200 - OK] /admin/dashboard GET 9,25ms
+[24/12/2022 16.26.41] [200 - OK] /admin/quick-count GET 6,773ms
+[24/12/2022 16.26.44] [200 - OK] /admin/dashboard GET 7,804ms
+[24/12/2022 16.26.44] [200 - OK] /admin/quick-count GET 5,294ms
+[24/12/2022 16.26.59] [404 - Not Found] /admin/ GET 1,674ms
+[24/12/2022 16.26.59] [200 - OK] /admin/quick-count GET 11,713ms
+[24/12/2022 16.26.59] [200 - OK] /admin/dashboard GET 12,907ms
+[24/12/2022 16.27.02] [200 - OK] /admin/dashboard GET 562,565ms
+[24/12/2022 16.27.02] [200 - OK] /admin/quick-count GET 128,122ms
+[24/12/2022 16.27.03] [200 - OK] /admin/event GET 1.142,867ms
+[24/12/2022 16.27.08] [200 - OK] /admin/dashboard GET 133,994ms
+[24/12/2022 16.27.08] [200 - OK] /admin/quick-count GET 130,962ms
+[24/12/2022 16.27.08] [200 - OK] /admin/dashboard GET 136,116ms
+[24/12/2022 16.27.08] [200 - OK] /admin/quick-count GET 20,29ms
+[24/12/2022 16.27.22] [200 - OK] /admin/dashboard GET 6,26ms
+[24/12/2022 16.27.22] [200 - OK] /admin/quick-count GET 5,089ms
+[24/12/2022 16.27.27] [200 - OK] /admin/quick-count GET 5,039ms
+[24/12/2022 16.27.27] [200 - OK] /admin/dashboard GET 6,036ms
+[24/12/2022 16.27.40] [200 - OK] /admin/dashboard GET 6,642ms
+[24/12/2022 16.27.40] [200 - OK] /admin/quick-count GET 10,531ms
+[24/12/2022 16.27.45] [200 - OK] /admin/dashboard GET 15,281ms
+[24/12/2022 16.27.45] [200 - OK] /admin/quick-count GET 5,658ms
+[24/12/2022 16.27.58] [200 - OK] /admin/dashboard GET 20,892ms
+[24/12/2022 16.27.58] [200 - OK] /admin/quick-count GET 18,772ms
+[24/12/2022 16.28.00] [200 - OK] /admin/event GET 8,538ms
+[24/12/2022 16.28.00] [200 - OK] /admin/dashboard GET 5,826ms
+[24/12/2022 16.28.00] [200 - OK] /admin/quick-count GET 20,082ms
+[24/12/2022 16.28.02] [200 - OK] /admin/dashboard GET 6,611ms
+[24/12/2022 16.28.02] [200 - OK] /admin/quick-count GET 4,232ms
+[24/12/2022 16.28.10] [200 - OK] /admin/quick-count GET 118,216ms
+[24/12/2022 16.28.10] [200 - OK] /admin/dashboard GET 912,219ms
+[24/12/2022 16.28.11] [200 - OK] /admin/quick-count GET 1.119,69ms
+[24/12/2022 16.28.11] [200 - OK] /admin/dashboard GET 1.261,406ms
+[24/12/2022 16.28.11] [200 - OK] /admin/event GET 24,277ms
+[24/12/2022 16.28.11] [200 - OK] /admin/dashboard GET 37,734ms
+[24/12/2022 16.28.11] [200 - OK] /admin/quick-count GET 85,04ms
+[24/12/2022 16.28.22] [200 - OK] /admin/dashboard GET 7,907ms
+[24/12/2022 16.28.22] [200 - OK] /admin/quick-count GET 6,418ms
+[24/12/2022 16.28.27] [200 - OK] /admin/dashboard GET 6,946ms
+[24/12/2022 16.28.27] [200 - OK] /admin/quick-count GET 136,343ms
+[24/12/2022 16.28.35] [200 - OK] /admin/event GET 36,14ms
+[24/12/2022 16.28.35] [200 - OK] /admin/dashboard GET 495,234ms
+[24/12/2022 16.28.35] [200 - OK] /admin/quick-count GET 650,878ms
+[24/12/2022 16.28.40] [200 - OK] /admin/dashboard GET 5,983ms
+[24/12/2022 16.28.40] [200 - OK] /admin/quick-count GET 5,885ms
+[24/12/2022 16.28.42] [200 - OK] /admin/dashboard GET 5,708ms
+[24/12/2022 16.28.42] [200 - OK] /admin/event GET 12,503ms
+[24/12/2022 16.28.42] [200 - OK] /admin/quick-count GET 30,743ms
+[24/12/2022 16.28.44] [200 - OK] /admin/event GET 4,938ms
+[24/12/2022 16.28.44] [200 - OK] /admin/dashboard GET 4,296ms
+[24/12/2022 16.28.44] [200 - OK] /admin/quick-count GET 3,721ms
+[24/12/2022 16.28.46] [200 - OK] /admin/quick-count GET 564,082ms
+[24/12/2022 16.28.46] [200 - OK] /admin/dashboard GET 566,398ms
+[24/12/2022 16.28.49] [200 - OK] /admin/event GET 4,039ms
+[24/12/2022 16.28.49] [200 - OK] /admin/dashboard GET 4,945ms
+[24/12/2022 16.28.49] [200 - OK] /admin/quick-count GET 3,296ms
+[24/12/2022 16.28.55] [200 - OK] /admin/event GET 27,369ms
+[24/12/2022 16.28.56] [200 - OK] /admin/dashboard GET 29,563ms
+[24/12/2022 16.28.56] [200 - OK] /admin/quick-count GET 3,759ms
+[24/12/2022 16.28.58] [200 - OK] /admin/dashboard GET 40,583ms
+[24/12/2022 16.28.58] [200 - OK] /admin/quick-count GET 37,304ms
+[24/12/2022 16.29.01] [200 - OK] /admin/dashboard GET 6,298ms
+[24/12/2022 16.29.01] [200 - OK] /admin/quick-count GET 3,987ms
+[24/12/2022 16.29.02] [200 - OK] /admin/dashboard GET 3,964ms
+[24/12/2022 16.29.02] [200 - OK] /admin/quick-count GET 2,44ms
+[24/12/2022 16.29.08] [200 - OK] /admin/dashboard GET 4,971ms
+[24/12/2022 16.29.09] [200 - OK] /admin/quick-count GET 3,812ms
+[24/12/2022 16.29.09] [200 - OK] /admin/dashboard GET 54,478ms
+[24/12/2022 16.29.09] [200 - OK] /admin/quick-count GET 4,274ms
+[24/12/2022 16.29.10] [200 - OK] /admin/event GET 5,539ms
+[24/12/2022 16.29.10] [200 - OK] /admin/dashboard GET 7,462ms
+[24/12/2022 16.29.10] [200 - OK] /admin/quick-count GET 98,141ms
+[24/12/2022 16.29.11] [200 - OK] /admin/dashboard GET 10,31ms
+[24/12/2022 16.29.11] [200 - OK] /admin/quick-count GET 6ms
+[24/12/2022 16.29.19] [200 - OK] /admin/event GET 330,425ms
+[24/12/2022 16.29.19] [200 - OK] /admin/dashboard GET 8,646ms
+[24/12/2022 16.29.19] [200 - OK] /admin/quick-count GET 5,116ms
+[24/12/2022 16.30.19] [200 - OK] /admin/dashboard GET 6,259ms
+[24/12/2022 16.30.19] [200 - OK] /admin/quick-count GET 5,328ms
+[24/12/2022 16.31.15] [200 - OK] /admin/quick-count GET 13,363ms
+[24/12/2022 16.31.15] [200 - OK] /admin/event GET 35,443ms
+[24/12/2022 16.31.15] [200 - OK] /admin/dashboard GET 36,177ms
+[24/12/2022 16.32.16] [200 - OK] /admin/quick-count GET 9,734ms
+[24/12/2022 16.32.16] [200 - OK] /admin/dashboard GET 20,657ms
+[24/12/2022 16.32.24] [200 - OK] /admin/user GET 200,94ms
+[24/12/2022 16.32.34] [200 - OK] /admin/user GET 25,969ms
+[24/12/2022 16.32.46] [200 - OK] /admin/user GET 8,561ms
+[24/12/2022 16.33.15] [200 - OK] /admin/quick-count GET 33,984ms
+[24/12/2022 16.33.15] [200 - OK] /admin/dashboard GET 39,764ms
+[24/12/2022 16.33.41] [404 - Not Found] /admin/users GET 43,629ms
+[24/12/2022 16.33.46] [404 - Not Found] /admin/users GET 0,683ms
+[24/12/2022 16.33.54] [404 - Not Found] /admin/users GET 0,882ms
+[24/12/2022 16.34.03] [200 - OK] /admin/user GET 6,501ms
+[24/12/2022 16.34.08] [200 - OK] /admin/user GET 6,13ms
+[24/12/2022 16.50.39] [200 - OK] /admin/user GET 7,212ms
+[24/12/2022 16.53.54] [200 - OK] /admin/user GET 10,952ms
+[24/12/2022 16.55.50] [200 - OK] /admin/user GET 28,265ms
+[24/12/2022 17.01.19] [200 - OK] /admin/user GET 29,38ms
+[24/12/2022 17.03.08] [200 - OK] /admin/user GET 33,046ms
+[24/12/2022 17.03.21] [404 - Not Found] /admin/user/174 POST 135,69ms
+[24/12/2022 17.11.57] [200 - OK] /login POST 214,871ms
+[24/12/2022 17.12.34] [200 - OK] /admin/event GET 293,226ms
+[24/12/2022 17.12.34] [200 - OK] /admin/quick-count GET 292,768ms
+[24/12/2022 17.12.34] [200 - OK] /admin/dashboard GET 306,335ms
+[24/12/2022 17.12.53] [200 - OK] /admin/user GET 5,241ms
+[24/12/2022 17.13.35] [200 - OK] /admin/dashboard GET 15,213ms
+[24/12/2022 17.13.35] [200 - OK] /admin/quick-count GET 24,407ms
+[24/12/2022 17.14.05] [200 - OK] /admin/user GET 13,87ms
+[24/12/2022 17.14.28] [404 - Not Found] /admin/user/176 POST 2,398ms
+[24/12/2022 17.15.33] [200 - OK] /admin/user GET 184,089ms
+[24/12/2022 17.15.33] [200 - OK] /admin/user GET 194,731ms
+[24/12/2022 17.18.27] [200 - OK] /admin/user GET 5,152ms
+[24/12/2022 17.18.29] [200 - OK] /admin/user GET 7,294ms
+[24/12/2022 17.18.38] [200 - OK] /admin/user GET 3,305ms
+[24/12/2022 17.18.52] [200 - OK] /admin/user/177 PUT 248,231ms
+[24/12/2022 17.18.52] [200 - OK] /admin/user GET 5,596ms
+[24/12/2022 17.20.58] [501 - Not Implemented] /admin/user GET 145,484ms
+[24/12/2022 17.23.13] [200 - OK] /admin/user GET 126,523ms
+[24/12/2022 17.23.36] [200 - OK] /admin/user GET 10,237ms
+[24/12/2022 17.23.54] [200 - OK] /admin/user/184 PUT 16,648ms
+[24/12/2022 17.23.54] [200 - OK] /admin/user GET 7,109ms
+[24/12/2022 17.26.11] [200 - OK] /admin/user GET 7,223ms
+[24/12/2022 17.26.20] [501 - Not Implemented] /admin/user/[object%20Object] DELETE 234,451ms
+[24/12/2022 17.26.47] [200 - OK] /admin/user GET 3,65ms
+[24/12/2022 17.26.59] [200 - OK] /admin/user/177 DELETE 119,133ms
+[24/12/2022 17.27.09] [404 - Not Found] /admin/user/177 DELETE 10,868ms
+[24/12/2022 17.27.30] [200 - OK] /admin/user GET 5,805ms
+[24/12/2022 17.27.36] [200 - OK] /admin/user/174 DELETE 85,372ms
+[24/12/2022 17.29.14] [200 - OK] /admin/user GET 121,565ms
+[24/12/2022 17.29.37] [200 - OK] /admin/user/173 DELETE 182,247ms
+[24/12/2022 17.29.37] [200 - OK] /admin/user GET 4,611ms
+[24/12/2022 17.39.25] [200 - OK] /admin/user POST 571,024ms
+[24/12/2022 17.41.13] [200 - OK] /admin/user POST 5,192ms
+[24/12/2022 17.41.22] [501 - Not Implemented] /admin/user POST 654,145ms
+[24/12/2022 17.42.38] [304 - Not Modified] /admin/quick-count GET 251,553ms
+[24/12/2022 17.42.38] [304 - Not Modified] /admin/event GET 345,847ms
+[24/12/2022 17.42.38] [200 - OK] /admin/dashboard GET 340,1ms
+[24/12/2022 17.42.41] [200 - OK] /admin/user GET 68,523ms
+[24/12/2022 17.43.39] [200 - OK] /admin/quick-count GET 5,468ms
+[24/12/2022 17.43.39] [200 - OK] /admin/dashboard GET 8,781ms
+[24/12/2022 17.44.38] [200 - OK] /admin/quick-count GET 10,253ms
+[24/12/2022 17.44.38] [200 - OK] /admin/dashboard GET 15,317ms
+[24/12/2022 17.45.38] [200 - OK] /admin/dashboard GET 7,133ms
+[24/12/2022 17.45.38] [200 - OK] /admin/quick-count GET 6,233ms
+[24/12/2022 17.46.39] [200 - OK] /admin/quick-count GET 6,47ms
+[24/12/2022 17.46.39] [200 - OK] /admin/dashboard GET 10,993ms
+[24/12/2022 18.31.29] [200 - OK] /login POST 527,336ms
+[24/12/2022 18.37.41] [400 - Bad Request] /admin/user/excel POST 599,051ms
+[24/12/2022 20.31.12] [200 - OK] /login POST 423,909ms
+[24/12/2022 20.33.19] [200 - OK] /admin/quick-count GET 170,268ms
+[24/12/2022 20.33.20] [200 - OK] /admin/event GET 737,656ms
+[24/12/2022 20.33.20] [200 - OK] /admin/dashboard GET 743,622ms
+[24/12/2022 20.33.39] [200 - OK] /login POST 554,075ms
+[24/12/2022 20.33.39] [200 - OK] /admin/event GET 42,033ms
+[24/12/2022 20.33.39] [200 - OK] /admin/quick-count GET 17,229ms
+[24/12/2022 20.33.39] [200 - OK] /admin/dashboard GET 23,719ms
+[24/12/2022 20.34.19] [304 - Not Modified] /admin/dashboard GET 8,944ms
+[24/12/2022 20.34.19] [304 - Not Modified] /admin/quick-count GET 8,5ms
+[24/12/2022 20.34.39] [304 - Not Modified] /admin/dashboard GET 9,364ms
+[24/12/2022 20.34.39] [304 - Not Modified] /admin/quick-count GET 6,846ms
+[24/12/2022 20.34.41] [500 - Internal Server Error] /admin/user/excel POST 1.071,665ms
+[24/12/2022 20.35.19] [200 - OK] /admin/quick-count GET 5,372ms
+[24/12/2022 20.35.19] [200 - OK] /admin/dashboard GET 190,381ms
+[24/12/2022 20.35.40] [200 - OK] /admin/quick-count GET 5,938ms
+[24/12/2022 20.35.40] [200 - OK] /admin/dashboard GET 9,792ms
+[24/12/2022 20.36.21] [200 - OK] /admin/dashboard GET 36,434ms
+[24/12/2022 20.36.21] [200 - OK] /admin/quick-count GET 42,606ms
+[24/12/2022 20.36.39] [200 - OK] /admin/quick-count GET 5,237ms
+[24/12/2022 20.36.39] [200 - OK] /admin/dashboard GET 8,274ms
+[24/12/2022 20.48.57] [500 - Internal Server Error] /admin/user/excel POST 2.844,282ms
+[24/12/2022 20.48.58] [500 - Internal Server Error] /admin/user/excel POST 132,321ms
+[24/12/2022 20.49.33] [500 - Internal Server Error] /admin/user/excel POST 83,91ms
+[24/12/2022 20.49.34] [500 - Internal Server Error] /admin/user/excel POST 163,463ms
+[24/12/2022 20.50.58] [200 - OK] /admin/user GET 397,684ms
+[24/12/2022 20.53.02] [200 - OK] /admin/user GET 7,207ms
+[24/12/2022 20.56.31] [304 - Not Modified] /admin/user GET 81,008ms
+[24/12/2022 20.56.32] [304 - Not Modified] /admin/user GET 12,74ms
+[24/12/2022 20.56.32] [304 - Not Modified] /admin/user GET 2,461ms
+[24/12/2022 20.56.42] [304 - Not Modified] /admin/user GET 5,168ms
+[24/12/2022 20.56.48] [304 - Not Modified] /admin/user GET 3,91ms
+[24/12/2022 20.57.46] [304 - Not Modified] /admin/user GET 10,065ms
+[24/12/2022 21.00.19] [304 - Not Modified] /admin/user GET 4,49ms
+[24/12/2022 21.00.24] [304 - Not Modified] /admin/user GET 4,921ms
+[24/12/2022 21.00.30] [304 - Not Modified] /admin/user GET 5,593ms
+[24/12/2022 21.00.34] [304 - Not Modified] /admin/user GET 5,526ms
+[24/12/2022 21.00.35] [304 - Not Modified] /admin/user GET 5,541ms
+[24/12/2022 21.01.05] [304 - Not Modified] /admin/user GET 23,932ms
+[24/12/2022 21.01.05] [304 - Not Modified] /admin/user GET 4,206ms
+[24/12/2022 21.01.08] [304 - Not Modified] /admin/user GET 4,104ms
+[24/12/2022 21.01.12] [304 - Not Modified] /admin/user GET 3,724ms
+[24/12/2022 21.01.32] [304 - Not Modified] /admin/user GET 3,894ms
+[24/12/2022 21.01.42] [304 - Not Modified] /admin/user GET 3,564ms
+[24/12/2022 21.04.04] [304 - Not Modified] /admin/user GET 3,542ms
+[24/12/2022 21.04.14] [200 - OK] /admin/user GET 3,596ms
+[24/12/2022 21.04.45] [200 - OK] /admin/user GET 5,889ms
+[24/12/2022 21.05.12] [200 - OK] /admin/user GET 19,731ms
+[24/12/2022 21.07.42] [200 - OK] /admin/user DELETE 1.389,878ms
+[24/12/2022 22.07.09] [404 - Not Found] /login POST 835,565ms
+[24/12/2022 22.07.09] [404 - Not Found] /login POST 3,926ms
+[24/12/2022 22.07.19] [404 - Not Found] /login POST 3,007ms
+[24/12/2022 22.07.23] [404 - Not Found] /login POST 4,323ms
+[24/12/2022 22.17.34] [200 - OK] /login POST 907,757ms
+[24/12/2022 22.18.21] [200 - OK] /admin/quick-count GET 53,22ms
+[24/12/2022 22.18.21] [200 - OK] /admin/event GET 199,937ms
+[24/12/2022 22.18.21] [200 - OK] /admin/dashboard GET 203,544ms
+[24/12/2022 22.18.37] [200 - OK] /admin/dashboard GET 8,44ms
+[24/12/2022 22.18.37] [200 - OK] /admin/quick-count GET 8,034ms
+[24/12/2022 22.18.45] [200 - OK] /admin/user GET 78,627ms
+[24/12/2022 22.19.21] [200 - OK] /admin/dashboard GET 8,27ms
+[24/12/2022 22.19.21] [200 - OK] /admin/quick-count GET 7,59ms
+[24/12/2022 22.20.21] [200 - OK] /admin/dashboard GET 9,755ms
+[24/12/2022 22.20.21] [200 - OK] /admin/quick-count GET 7,844ms
+[24/12/2022 22.20.37] [200 - OK] /admin/user GET 3,777ms
+[24/12/2022 22.21.22] [500 - Internal Server Error] /admin/user/excel POST 931,123ms
+[24/12/2022 22.21.22] [500 - Internal Server Error] /admin/user/excel POST 93,871ms
+[24/12/2022 22.34.15] [200 - OK] /admin/user GET 4,927ms
+[24/12/2022 22.34.53] [200 - OK] /admin/user DELETE 267,839ms
+[24/12/2022 22.38.33] [200 - OK] /admin/user GET 10,182ms
+[24/12/2022 22.39.57] [200 - OK] /admin/user POST 43,779ms
+[24/12/2022 22.40.21] [200 - OK] /admin/user GET 3,729ms
+[24/12/2022 22.44.25] [200 - OK] /admin/user DELETE 50,722ms
+[24/12/2022 22.44.25] [200 - OK] /admin/user GET 5,629ms
+[24/12/2022 22.44.41] [200 - OK] /admin/user/excel POST 190,64ms
+[24/12/2022 22.44.41] [500 - Internal Server Error] /admin/user/excel POST 315,051ms
+[24/12/2022 22.47.49] [200 - OK] /admin/user GET 7,038ms
+[24/12/2022 22.47.54] [200 - OK] /admin/user DELETE 17,797ms
+[24/12/2022 22.47.54] [200 - OK] /admin/user GET 3,904ms
+[24/12/2022 22.48.14] [200 - OK] /admin/user/excel POST 50,847ms
+[24/12/2022 22.48.14] [500 - Internal Server Error] /admin/user/excel POST 50,977ms
+[24/12/2022 22.59.28] [500 - Internal Server Error] /admin/user/excel POST 723,165ms
+[24/12/2022 22.59.33] [200 - OK] /admin/user GET 9,326ms
+[24/12/2022 22.59.37] [200 - OK] /admin/user DELETE 45,528ms
+[24/12/2022 22.59.37] [200 - OK] /admin/user GET 3,181ms
+[24/12/2022 22.59.50] [200 - OK] /admin/user/excel POST 208,138ms
+[24/12/2022 23.00.31] [200 - OK] /admin/user GET 5,329ms
+[24/12/2022 23.00.36] [200 - OK] /admin/user DELETE 6,752ms
+[24/12/2022 23.00.36] [200 - OK] /admin/user GET 3,165ms
+[24/12/2022 23.01.10] [200 - OK] /admin/user/excel POST 927,708ms
+[24/12/2022 23.01.20] [200 - OK] /admin/user GET 8,952ms
+[24/12/2022 23.04.07] [200 - OK] /admin/user GET 3,341ms
+[24/12/2022 23.06.45] [200 - OK] /admin/quick-count GET 337,265ms
+[24/12/2022 23.06.45] [304 - Not Modified] /admin/event GET 266,647ms
+[24/12/2022 23.06.45] [200 - OK] /admin/dashboard GET 1.123,858ms
+[24/12/2022 23.07.09] [304 - Not Modified] /admin/user GET 15,863ms
+[24/12/2022 23.07.43] [304 - Not Modified] /admin/quick-count GET 48,473ms
+[24/12/2022 23.07.43] [304 - Not Modified] /admin/dashboard GET 53,191ms
+[24/12/2022 23.08.43] [304 - Not Modified] /admin/dashboard GET 8,87ms
+[24/12/2022 23.08.43] [304 - Not Modified] /admin/quick-count GET 8,106ms
+[24/12/2022 23.09.43] [304 - Not Modified] /admin/dashboard GET 17,551ms
+[24/12/2022 23.09.43] [304 - Not Modified] /admin/quick-count GET 19,101ms
+[24/12/2022 23.10.43] [304 - Not Modified] /admin/dashboard GET 72,359ms
+[24/12/2022 23.10.43] [304 - Not Modified] /admin/quick-count GET 70,808ms
+[24/12/2022 23.13.21] [200 - OK] /admin/candidate GET 237,663ms
+[24/12/2022 23.15.38] [304 - Not Modified] /admin/candidate GET 6,747ms
+[24/12/2022 23.15.55] [304 - Not Modified] /admin/candidate GET 3,132ms
+[24/12/2022 23.16.08] [304 - Not Modified] /admin/candidate GET 5,353ms
+[24/12/2022 23.20.17] [200 - OK] /login POST 814,584ms
+[24/12/2022 23.20.17] [200 - OK] /login POST 871,051ms
+[24/12/2022 23.20.42] [200 - OK] /login POST 164,824ms
+[24/12/2022 23.26.30] [200 - OK] /login POST 292,418ms
+[24/12/2022 23.29.00] [200 - OK] /login POST 367,571ms
+[24/12/2022 23.29.31] [200 - OK] /login POST 109,165ms
+[24/12/2022 23.30.20] [200 - OK] /admin/user GET 321,182ms
+[24/12/2022 23.30.33] [200 - OK] /admin/candidate GET 17,849ms
+[24/12/2022 23.31.11] [200 - OK] /admin/candidate GET 4,552ms
+[25/12/2022 12.17.56] [200 - OK] /admin/quick-count GET 123,185ms
+[25/12/2022 12.17.57] [200 - OK] /admin/event GET 512,372ms
+[25/12/2022 12.17.57] [200 - OK] /admin/dashboard GET 522,268ms
+[25/12/2022 12.18.05] [304 - Not Modified] /admin/user GET 254,035ms
+[25/12/2022 12.18.48] [304 - Not Modified] /admin/quick-count GET 23,202ms
+[25/12/2022 12.18.48] [304 - Not Modified] /admin/dashboard GET 28,95ms
+[25/12/2022 12.19.49] [304 - Not Modified] /admin/quick-count GET 6,85ms
+[25/12/2022 12.19.49] [304 - Not Modified] /admin/dashboard GET 14,653ms
+[25/12/2022 12.20.22] [304 - Not Modified] /admin/user GET 41,838ms
+[25/12/2022 12.20.28] [304 - Not Modified] /admin/user GET 4,935ms
+[25/12/2022 12.20.37] [304 - Not Modified] /admin/user GET 3,9ms
+[25/12/2022 12.20.44] [304 - Not Modified] /admin/user GET 4,486ms
+[25/12/2022 12.20.48] [304 - Not Modified] /admin/dashboard GET 11,289ms
+[25/12/2022 12.20.48] [304 - Not Modified] /admin/quick-count GET 4,89ms
+[25/12/2022 12.20.50] [304 - Not Modified] /admin/user GET 6,263ms
+[25/12/2022 12.20.54] [304 - Not Modified] /admin/user GET 6,124ms
+[25/12/2022 12.21.07] [304 - Not Modified] /admin/user GET 3,797ms
+[25/12/2022 12.21.28] [304 - Not Modified] /admin/user GET 3,731ms
+[25/12/2022 12.21.48] [200 - OK] /admin/user/excel GET 8.486,426ms
+[25/12/2022 12.21.48] [304 - Not Modified] /admin/quick-count GET 237,016ms
+[25/12/2022 12.21.48] [304 - Not Modified] /admin/dashboard GET 243,052ms
+[25/12/2022 12.22.14] [304 - Not Modified] /admin/user GET 5,159ms
+[25/12/2022 12.22.19] [304 - Not Modified] /admin/user GET 4,484ms
+[25/12/2022 12.22.29] [304 - Not Modified] /admin/user GET 5,758ms
+[25/12/2022 12.22.34] [200 - OK] /admin/user/excel GET 55,741ms
+[25/12/2022 12.24.02] [304 - Not Modified] /admin/candidate GET 4,781ms
+[25/12/2022 12.24.18] [500 - Internal Server Error] /admin/candidate/[object%20Object] PUT 171,788ms
+[25/12/2022 12.24.48] [200 - OK] /admin/candidate GET 3,485ms
+[25/12/2022 12.25.08] [200 - OK] /admin/candidate/5 PUT 852,344ms
+[25/12/2022 12.25.08] [200 - OK] /admin/candidate GET 2,953ms
+[25/12/2022 12.30.35] [200 - OK] /admin/candidate GET 5,094ms
+[25/12/2022 12.32.24] [200 - OK] /admin/candidate GET 3,32ms
+[25/12/2022 12.33.50] [200 - OK] /admin/candidate GET 4,307ms
+[25/12/2022 12.37.19] [200 - OK] /admin/candidate GET 4,359ms
+[25/12/2022 12.39.16] [200 - OK] /admin/candidate GET 3,944ms
+[25/12/2022 12.41.33] [200 - OK] /admin/candidate GET 4,234ms
+[25/12/2022 12.41.58] [200 - OK] /admin/candidate/6 PUT 436,281ms
+[25/12/2022 12.41.58] [200 - OK] /admin/candidate GET 2,038ms
+[25/12/2022 12.42.20] [200 - OK] /admin/candidate GET 3,258ms
+[25/12/2022 12.43.56] [200 - OK] /admin/candidate GET 26,619ms
+[25/12/2022 12.44.04] [200 - OK] /admin/candidate GET 4,015ms
+[25/12/2022 12.50.40] [200 - OK] /admin/candidate GET 16,412ms
+[25/12/2022 12.51.30] [200 - OK] /admin/candidate/6 PUT 365,502ms
+[25/12/2022 12.51.30] [200 - OK] /admin/candidate GET 2,661ms
+[25/12/2022 12.53.11] [200 - OK] /admin/candidate/6 PUT 24,364ms
+[25/12/2022 12.53.11] [200 - OK] /admin/candidate GET 5,103ms
+[25/12/2022 12.53.26] [200 - OK] /admin/candidate GET 4,522ms
+[25/12/2022 12.53.52] [200 - OK] /admin/candidate/6 PUT 7,127ms
+[25/12/2022 12.53.52] [200 - OK] /admin/candidate GET 4,405ms
+[25/12/2022 12.54.36] [200 - OK] /admin/candidate/6 PUT 7,359ms
+[25/12/2022 12.54.36] [200 - OK] /admin/candidate GET 4,216ms
+[25/12/2022 12.54.42] [200 - OK] /admin/candidate GET 3,314ms
+[25/12/2022 12.54.57] [200 - OK] /admin/candidate GET 4,212ms
+[25/12/2022 12.55.41] [200 - OK] /admin/candidate GET 4,056ms
+[25/12/2022 12.55.50] [200 - OK] /admin/candidate/6 PUT 302,929ms
+[25/12/2022 12.55.50] [200 - OK] /admin/candidate GET 59,111ms
+[25/12/2022 12.59.44] [200 - OK] /admin/candidate GET 5,249ms
+[25/12/2022 13.01.54] [200 - OK] /admin/candidate GET 24,627ms
+[25/12/2022 13.02.06] [200 - OK] /admin/candidate/5 PUT 400,781ms
+[25/12/2022 13.02.06] [200 - OK] /admin/candidate GET 55,831ms
+[25/12/2022 13.02.46] [200 - OK] /admin/candidate GET 71,107ms
+[25/12/2022 13.03.23] [200 - OK] /admin/candidate/5 PUT 215,744ms
+[25/12/2022 13.03.23] [200 - OK] /admin/candidate GET 2,894ms
+[25/12/2022 13.17.51] [200 - OK] /admin/candidate GET 111,093ms
+[25/12/2022 13.19.32] [200 - OK] /admin/candidate GET 4,835ms
+[25/12/2022 13.19.51] [200 - OK] /admin/event GET 8.194,857ms
+[25/12/2022 13.19.51] [200 - OK] /admin/quick-count GET 6.835,896ms
+[25/12/2022 13.19.54] [200 - OK] /admin/dashboard GET 3.708,08ms
+[25/12/2022 13.20.45] [200 - OK] /admin/quick-count GET 95,406ms
+[25/12/2022 13.20.45] [200 - OK] /admin/dashboard GET 141,17ms
+[25/12/2022 13.21.22] [200 - OK] /admin/event GET 52,145ms
+[25/12/2022 13.21.22] [200 - OK] /admin/quick-count GET 51,816ms
+[25/12/2022 13.21.22] [200 - OK] /admin/dashboard GET 54,682ms
+[25/12/2022 13.21.32] [200 - OK] /admin/candidate GET 3,377ms
+[25/12/2022 13.21.48] [200 - OK] /admin/dashboard GET 11,545ms
+[25/12/2022 13.21.48] [200 - OK] /admin/event GET 12,978ms
+[25/12/2022 13.21.48] [200 - OK] /admin/quick-count GET 9,499ms
+[25/12/2022 13.22.40] [200 - OK] /admin/candidate GET 18,561ms
+[25/12/2022 13.22.52] [200 - OK] /admin/candidate GET 4,619ms
+[25/12/2022 13.23.12] [200 - OK] /admin/quick-count GET 40,137ms
+[25/12/2022 13.23.12] [200 - OK] /admin/event GET 360,699ms
+[25/12/2022 13.23.12] [200 - OK] /admin/dashboard GET 388,627ms
+[25/12/2022 13.24.08] [200 - OK] /admin/dashboard GET 7,852ms
+[25/12/2022 13.24.08] [200 - OK] /admin/quick-count GET 6,02ms
+[25/12/2022 13.25.10] [200 - OK] /admin/quick-count GET 34,985ms
+[25/12/2022 13.25.10] [200 - OK] /admin/dashboard GET 40,284ms
+[25/12/2022 13.26.08] [200 - OK] /admin/quick-count GET 6,596ms
+[25/12/2022 13.26.08] [200 - OK] /admin/dashboard GET 9,359ms
+[25/12/2022 13.27.10] [200 - OK] /admin/quick-count GET 7,405ms
+[25/12/2022 13.27.10] [200 - OK] /admin/dashboard GET 95,704ms
+[25/12/2022 13.28.08] [200 - OK] /admin/dashboard GET 6,779ms
+[25/12/2022 13.28.08] [200 - OK] /admin/quick-count GET 5,799ms
+[25/12/2022 13.29.16] [200 - OK] /admin/quick-count GET 10ms
+[25/12/2022 13.29.16] [200 - OK] /admin/dashboard GET 12,938ms
+[25/12/2022 13.30.15] [200 - OK] /admin/dashboard GET 7,387ms
+[25/12/2022 13.30.15] [200 - OK] /admin/quick-count GET 6,026ms
+[25/12/2022 13.31.15] [200 - OK] /admin/dashboard GET 9,338ms
+[25/12/2022 13.31.15] [200 - OK] /admin/quick-count GET 22,337ms
+[25/12/2022 13.32.15] [200 - OK] /admin/dashboard GET 8,834ms
+[25/12/2022 13.32.15] [200 - OK] /admin/quick-count GET 7,684ms
+[25/12/2022 13.33.15] [200 - OK] /admin/quick-count GET 18,832ms
+[25/12/2022 13.33.15] [200 - OK] /admin/dashboard GET 23,258ms
+[25/12/2022 13.34.15] [200 - OK] /admin/dashboard GET 7,507ms
+[25/12/2022 13.34.15] [200 - OK] /admin/quick-count GET 7,321ms
+[25/12/2022 13.35.15] [200 - OK] /admin/dashboard GET 6,611ms
+[25/12/2022 13.35.15] [200 - OK] /admin/quick-count GET 5,535ms
+[25/12/2022 13.36.15] [200 - OK] /admin/dashboard GET 7,452ms
+[25/12/2022 13.36.15] [200 - OK] /admin/quick-count GET 6,362ms
+[25/12/2022 13.37.15] [200 - OK] /admin/dashboard GET 6,108ms
+[25/12/2022 13.37.15] [200 - OK] /admin/quick-count GET 5,569ms
+[25/12/2022 13.38.15] [200 - OK] /admin/dashboard GET 8,129ms
+[25/12/2022 13.38.15] [200 - OK] /admin/quick-count GET 6,398ms
+[25/12/2022 13.39.15] [200 - OK] /admin/dashboard GET 11,75ms
+[25/12/2022 13.39.15] [200 - OK] /admin/quick-count GET 13,19ms
+[25/12/2022 13.40.15] [200 - OK] /admin/dashboard GET 7,99ms
+[25/12/2022 13.40.15] [200 - OK] /admin/quick-count GET 6,644ms
+[25/12/2022 13.41.16] [200 - OK] /admin/dashboard GET 9,697ms
+[25/12/2022 13.41.16] [200 - OK] /admin/quick-count GET 8,109ms
+[25/12/2022 13.42.15] [200 - OK] /admin/dashboard GET 7,584ms
+[25/12/2022 13.42.15] [200 - OK] /admin/quick-count GET 6,121ms
+[25/12/2022 13.43.15] [200 - OK] /admin/dashboard GET 24,032ms
+[25/12/2022 13.43.15] [200 - OK] /admin/quick-count GET 46,838ms
+[25/12/2022 13.43.51] [200 - OK] /admin/event GET 436,399ms
+[25/12/2022 13.43.51] [200 - OK] /admin/quick-count GET 244,811ms
+[25/12/2022 13.43.51] [200 - OK] /admin/dashboard GET 253,434ms
+[25/12/2022 13.44.02] [200 - OK] /admin/candidate GET 23,513ms
+[25/12/2022 13.44.52] [200 - OK] /admin/dashboard GET 59,434ms
+[25/12/2022 13.44.52] [200 - OK] /admin/quick-count GET 19,387ms
+[25/12/2022 13.45.51] [200 - OK] /admin/dashboard GET 8,989ms
+[25/12/2022 13.45.51] [200 - OK] /admin/quick-count GET 143,972ms
+[25/12/2022 13.46.52] [200 - OK] /admin/dashboard GET 163,787ms
+[25/12/2022 13.46.52] [200 - OK] /admin/quick-count GET 14,392ms
+[25/12/2022 13.47.51] [200 - OK] /admin/quick-count GET 8,158ms
+[25/12/2022 13.47.51] [200 - OK] /admin/dashboard GET 11,23ms
+[25/12/2022 13.48.51] [200 - OK] /admin/dashboard GET 19,072ms
+[25/12/2022 13.48.51] [200 - OK] /admin/quick-count GET 5,814ms
+[25/12/2022 13.49.51] [200 - OK] /admin/quick-count GET 5,831ms
+[25/12/2022 13.49.51] [200 - OK] /admin/dashboard GET 9,014ms
+[25/12/2022 13.50.52] [200 - OK] /admin/quick-count GET 7,779ms
+[25/12/2022 13.50.52] [200 - OK] /admin/dashboard GET 12,345ms
+[25/12/2022 13.52.02] [200 - OK] /admin/quick-count GET 9,449ms
+[25/12/2022 13.52.02] [200 - OK] /admin/dashboard GET 63,106ms
+[25/12/2022 13.53.02] [200 - OK] /admin/quick-count GET 541,354ms
+[25/12/2022 13.53.02] [200 - OK] /admin/dashboard GET 542,575ms
+[25/12/2022 13.53.07] [200 - OK] /admin/candidate/6 PUT 5.213,145ms
+[25/12/2022 13.53.54] [200 - OK] /admin/quick-count GET 25,826ms
+[25/12/2022 13.53.54] [200 - OK] /admin/dashboard GET 35,531ms
+[25/12/2022 13.54.33] [200 - OK] /admin/candidate GET 24,797ms
+[25/12/2022 14.01.05] [200 - OK] /admin/candidate GET 72,233ms
+[25/12/2022 14.02.17] [200 - OK] /admin/candidate/5 PUT 7.227,209ms
+[25/12/2022 14.02.18] [200 - OK] /admin/candidate GET 3,658ms
+[25/12/2022 14.10.13] [200 - OK] /admin/candidate GET 52,096ms
+[25/12/2022 14.11.16] [200 - OK] /admin/candidate/6 PUT 5.229,713ms
+[25/12/2022 14.11.16] [200 - OK] /admin/candidate GET 3,983ms
+[25/12/2022 14.12.08] [200 - OK] /admin/candidate/5 PUT 8,911ms
+[25/12/2022 14.12.08] [200 - OK] /admin/candidate GET 2,975ms
+[25/12/2022 14.22.42] [304 - Not Modified] /admin/candidate GET 34,384ms
+[25/12/2022 14.33.53] [200 - OK] /admin/candidate/ POST 5.168,313ms
+[25/12/2022 14.34.01] [200 - OK] /admin/candidate GET 81,977ms
+[25/12/2022 14.34.12] [200 - OK] /admin/candidate/7 DELETE 325,882ms
+[25/12/2022 14.34.12] [200 - OK] /admin/candidate GET 3,939ms
+[25/12/2022 14.34.21] [304 - Not Modified] /admin/event GET 295,718ms
+[25/12/2022 14.34.21] [304 - Not Modified] /admin/dashboard GET 508,294ms
+[25/12/2022 14.34.21] [200 - OK] /admin/quick-count GET 405,177ms
+[25/12/2022 14.35.20] [304 - Not Modified] /admin/dashboard GET 7,366ms
+[25/12/2022 14.35.20] [304 - Not Modified] /admin/quick-count GET 6,361ms
+[25/12/2022 14.36.21] [304 - Not Modified] /admin/quick-count GET 10,909ms
+[25/12/2022 14.36.21] [304 - Not Modified] /admin/dashboard GET 14,765ms
+[25/12/2022 14.38.21] [200 - OK] /admin/candidate/ POST 3.250,584ms
+[25/12/2022 14.38.49] [200 - OK] /admin/candidate GET 205,734ms
+[25/12/2022 14.38.56] [304 - Not Modified] /admin/user GET 100,762ms
+[25/12/2022 14.39.11] [200 - OK] /admin/quick-count GET 8,066ms
+[25/12/2022 14.39.11] [200 - OK] /admin/dashboard GET 12,272ms
+[25/12/2022 14.39.11] [304 - Not Modified] /admin/event GET 31,786ms
+[25/12/2022 14.40.11] [304 - Not Modified] /admin/quick-count GET 11,07ms
+[25/12/2022 14.40.11] [304 - Not Modified] /admin/dashboard GET 10,609ms
+[25/12/2022 14.41.11] [304 - Not Modified] /admin/dashboard GET 9,574ms
+[25/12/2022 14.41.11] [304 - Not Modified] /admin/quick-count GET 8,427ms
+[25/12/2022 14.42.12] [304 - Not Modified] /admin/quick-count GET 14,254ms
+[25/12/2022 14.42.12] [304 - Not Modified] /admin/dashboard GET 37,768ms
+[25/12/2022 14.43.12] [304 - Not Modified] /admin/dashboard GET 9,372ms
+[25/12/2022 14.43.12] [304 - Not Modified] /admin/quick-count GET 8,394ms
+[25/12/2022 14.44.12] [304 - Not Modified] /admin/quick-count GET 7,845ms
+[25/12/2022 14.44.12] [304 - Not Modified] /admin/dashboard GET 11,049ms
+[25/12/2022 14.44.59] [304 - Not Modified] /admin/event GET 18,898ms
+[25/12/2022 14.45.11] [304 - Not Modified] /admin/dashboard GET 6,492ms
+[25/12/2022 14.45.11] [304 - Not Modified] /admin/quick-count GET 6,152ms
+[25/12/2022 14.46.11] [304 - Not Modified] /admin/quick-count GET 12,778ms
+[25/12/2022 14.46.11] [304 - Not Modified] /admin/dashboard GET 17,132ms
+[25/12/2022 14.46.54] [304 - Not Modified] /admin/event GET 5,617ms
+[25/12/2022 14.47.24] [200 - OK] /admin/event GET 7,683ms
+[25/12/2022 14.49.40] [200 - OK] /admin/event GET 6,387ms
+[25/12/2022 14.51.24] [200 - OK] /admin/event GET 39,075ms
+[25/12/2022 14.52.39] [200 - OK] /admin/event GET 8,001ms
+[25/12/2022 14.52.48] [200 - OK] /admin/event GET 4,144ms
+[25/12/2022 14.52.57] [200 - OK] /admin/event GET 3,498ms
+[25/12/2022 14.53.22] [200 - OK] /admin/event GET 7,204ms
+[25/12/2022 14.53.26] [200 - OK] /admin/event GET 3,942ms
+[25/12/2022 14.54.44] [200 - OK] /admin/event GET 6,088ms
+[25/12/2022 14.54.50] [200 - OK] /admin/event GET 4,134ms
+[25/12/2022 14.54.56] [200 - OK] /admin/event GET 4,512ms
+[25/12/2022 14.55.18] [200 - OK] /admin/event GET 8,567ms
+[25/12/2022 14.55.20] [200 - OK] /admin/event GET 3,796ms
+[25/12/2022 14.55.27] [200 - OK] /admin/event GET 4,468ms
+[25/12/2022 14.55.57] [200 - OK] /admin/event GET 6,174ms
+[25/12/2022 14.56.00] [200 - OK] /admin/event GET 5,307ms
+[25/12/2022 14.56.02] [200 - OK] /admin/event GET 4,707ms
+[25/12/2022 14.56.03] [200 - OK] /admin/event GET 3,269ms
+[25/12/2022 14.56.07] [200 - OK] /admin/event GET 4,159ms
+[25/12/2022 14.56.12] [200 - OK] /admin/event GET 6,259ms
+[25/12/2022 14.56.21] [200 - OK] /admin/event GET 4,25ms
+[25/12/2022 14.57.04] [200 - OK] /admin/event GET 18,527ms
+[25/12/2022 14.57.04] [200 - OK] /admin/event GET 17,606ms
+[25/12/2022 14.57.05] [200 - OK] /admin/event GET 162,221ms
+[25/12/2022 14.57.08] [200 - OK] /admin/event GET 3,812ms
+[25/12/2022 14.57.11] [200 - OK] /admin/event GET 4,673ms
+[25/12/2022 14.57.13] [200 - OK] /admin/event GET 3,717ms
+[25/12/2022 14.57.37] [200 - OK] /admin/event GET 5,275ms
+[25/12/2022 14.57.46] [200 - OK] /admin/event GET 4,325ms
+[25/12/2022 14.57.55] [200 - OK] /admin/event GET 4,273ms
+[25/12/2022 14.57.57] [200 - OK] /admin/event GET 3,442ms
+[25/12/2022 14.58.00] [200 - OK] /admin/event GET 86,199ms
+[25/12/2022 14.58.16] [200 - OK] /admin/event GET 5,722ms
+[25/12/2022 14.58.17] [200 - OK] /admin/event GET 3,795ms
+[25/12/2022 14.59.02] [200 - OK] /admin/event GET 400,685ms
+[25/12/2022 14.59.02] [200 - OK] /admin/event GET 398,529ms
+[25/12/2022 15.00.49] [200 - OK] /admin/event GET 47,509ms
+[25/12/2022 15.02.30] [200 - OK] /admin/event PUT 834,229ms
+[25/12/2022 15.02.30] [200 - OK] /admin/event GET 6,147ms
+[25/12/2022 15.03.02] [200 - OK] /admin/event GET 5,448ms
+[25/12/2022 15.08.23] [200 - OK] /admin/event GET 61,432ms
+[25/12/2022 15.09.17] [304 - Not Modified] /admin/event GET 20,491ms
+[25/12/2022 15.10.09] [200 - OK] /admin/event PUT 2,013ms
+[25/12/2022 15.10.09] [304 - Not Modified] /admin/event GET 8,963ms
+[25/12/2022 15.10.14] [200 - OK] /admin/event GET 4,505ms
+[25/12/2022 15.10.50] [304 - Not Modified] /admin/event GET 5,695ms
+[25/12/2022 15.10.55] [304 - Not Modified] /admin/event GET 5,528ms
+[25/12/2022 15.11.30] [200 - OK] /admin/event PUT 1,054ms
+[25/12/2022 15.11.30] [200 - OK] /admin/event GET 8,957ms
+[25/12/2022 15.12.14] [200 - OK] /admin/event GET 6,934ms
+[25/12/2022 15.14.41] [200 - OK] /admin/event PUT 16,022ms
+[25/12/2022 15.14.41] [200 - OK] /admin/event GET 74,872ms
+[25/12/2022 15.14.56] [200 - OK] /admin/event GET 7,848ms
+[25/12/2022 15.15.01] [200 - OK] /admin/event GET 6,544ms
+[25/12/2022 15.15.02] [200 - OK] /admin/event GET 6,789ms
+[25/12/2022 15.15.05] [200 - OK] /admin/event GET 5,777ms
+[25/12/2022 15.15.31] [200 - OK] /admin/event GET 12,404ms
+[25/12/2022 15.16.29] [200 - OK] /admin/event PUT 143,826ms
+[25/12/2022 15.16.29] [200 - OK] /admin/event GET 12,55ms
+[25/12/2022 15.16.36] [304 - Not Modified] /admin/event GET 3,992ms
+[25/12/2022 15.16.36] [304 - Not Modified] /admin/quick-count GET 51,131ms
+[25/12/2022 15.16.36] [304 - Not Modified] /admin/dashboard GET 53,704ms
+[25/12/2022 15.16.48] [200 - OK] /admin/event GET 10,778ms
+[25/12/2022 15.16.48] [200 - OK] /admin/dashboard GET 14,304ms
+[25/12/2022 15.16.48] [200 - OK] /admin/quick-count GET 16,103ms
+[25/12/2022 15.16.51] [304 - Not Modified] /admin/event GET 8,219ms
+[25/12/2022 15.17.02] [304 - Not Modified] /admin/event GET 8,405ms
+[25/12/2022 15.17.02] [304 - Not Modified] /admin/dashboard GET 12,473ms
+[25/12/2022 15.17.02] [304 - Not Modified] /admin/quick-count GET 11,404ms
+[25/12/2022 15.17.43] [304 - Not Modified] /admin/event GET 13,192ms
+[25/12/2022 15.17.43] [304 - Not Modified] /admin/quick-count GET 13,643ms
+[25/12/2022 15.17.43] [304 - Not Modified] /admin/dashboard GET 17,65ms
+[25/12/2022 15.17.44] [304 - Not Modified] /admin/quick-count GET 9,617ms
+[25/12/2022 15.17.44] [304 - Not Modified] /admin/event GET 10,557ms
+[25/12/2022 15.17.44] [304 - Not Modified] /admin/dashboard GET 14,841ms
+[25/12/2022 15.17.48] [304 - Not Modified] /admin/dashboard GET 9,067ms
+[25/12/2022 15.17.48] [304 - Not Modified] /admin/quick-count GET 11,263ms
+[25/12/2022 15.18.01] [304 - Not Modified] /admin/dashboard GET 7,903ms
+[25/12/2022 15.18.01] [304 - Not Modified] /admin/quick-count GET 6,607ms
+[25/12/2022 15.18.21] [304 - Not Modified] /admin/quick-count GET 9,67ms
+[25/12/2022 15.18.21] [304 - Not Modified] /admin/dashboard GET 14,475ms
+[25/12/2022 15.18.21] [304 - Not Modified] /admin/event GET 24,926ms
+[25/12/2022 15.18.23] [304 - Not Modified] /admin/quick-count GET 6,849ms
+[25/12/2022 15.18.23] [304 - Not Modified] /admin/event GET 7,54ms
+[25/12/2022 15.18.23] [304 - Not Modified] /admin/dashboard GET 23,673ms
+[25/12/2022 15.18.31] [304 - Not Modified] /admin/quick-count GET 8,027ms
+[25/12/2022 15.18.31] [304 - Not Modified] /admin/event GET 14,619ms
+[25/12/2022 15.18.31] [304 - Not Modified] /admin/dashboard GET 15,318ms
+[25/12/2022 15.18.43] [200 - OK] /admin/dashboard GET 6,46ms
+[25/12/2022 15.18.43] [200 - OK] /admin/quick-count GET 7,37ms
+[25/12/2022 15.18.44] [200 - OK] /admin/dashboard GET 9,773ms
+[25/12/2022 15.18.44] [200 - OK] /admin/quick-count GET 6,353ms
+[25/12/2022 15.18.48] [200 - OK] /admin/quick-count GET 5,327ms
+[25/12/2022 15.18.48] [200 - OK] /admin/dashboard GET 8,617ms
+[25/12/2022 15.18.51] [200 - OK] /admin/dashboard GET 13,385ms
+[25/12/2022 15.18.51] [200 - OK] /admin/event GET 23,1ms
+[25/12/2022 15.18.51] [200 - OK] /admin/quick-count GET 12,66ms
+[25/12/2022 15.18.59] [200 - OK] /admin/event GET 11,064ms
+[25/12/2022 15.18.59] [200 - OK] /admin/quick-count GET 8,619ms
+[25/12/2022 15.18.59] [200 - OK] /admin/dashboard GET 15,519ms
+[25/12/2022 15.19.11] [200 - OK] /admin/event GET 6,494ms
+[25/12/2022 15.19.11] [200 - OK] /admin/dashboard GET 12,79ms
+[25/12/2022 15.19.11] [200 - OK] /admin/quick-count GET 11,502ms
+[25/12/2022 15.19.27] [200 - OK] /admin/quick-count GET 27,723ms
+[25/12/2022 15.19.27] [200 - OK] /admin/dashboard GET 15,541ms
+[25/12/2022 15.19.31] [200 - OK] /admin/event GET 9,042ms
+[25/12/2022 15.19.31] [200 - OK] /admin/dashboard GET 13,482ms
+[25/12/2022 15.19.31] [200 - OK] /admin/quick-count GET 10,759ms
+[25/12/2022 15.19.52] [200 - OK] /admin/event GET 10,572ms
+[25/12/2022 15.19.52] [200 - OK] /admin/quick-count GET 9,951ms
+[25/12/2022 15.19.52] [200 - OK] /admin/dashboard GET 154,039ms
+[25/12/2022 15.19.58] [200 - OK] /admin/event GET 10,761ms
+[25/12/2022 15.19.58] [200 - OK] /admin/quick-count GET 16,111ms
+[25/12/2022 15.19.58] [200 - OK] /admin/dashboard GET 20,98ms
+[25/12/2022 15.20.02] [200 - OK] /admin/event GET 19,17ms
+[25/12/2022 15.20.02] [200 - OK] /admin/dashboard GET 7,584ms
+[25/12/2022 15.20.02] [200 - OK] /admin/quick-count GET 21,588ms
+[25/12/2022 15.20.05] [200 - OK] /admin/event GET 3,945ms
+[25/12/2022 15.20.06] [200 - OK] /admin/quick-count GET 5,898ms
+[25/12/2022 15.20.06] [200 - OK] /admin/dashboard GET 9,229ms
+[25/12/2022 15.20.07] [200 - OK] /admin/event GET 9,156ms
+[25/12/2022 15.20.07] [200 - OK] /admin/quick-count GET 9,765ms
+[25/12/2022 15.20.07] [200 - OK] /admin/dashboard GET 13,558ms
+[25/12/2022 15.20.10] [200 - OK] /admin/event GET 13,679ms
+[25/12/2022 15.20.10] [200 - OK] /admin/quick-count GET 9,099ms
+[25/12/2022 15.20.10] [200 - OK] /admin/dashboard GET 12,625ms
+[25/12/2022 15.20.27] [200 - OK] /admin/event GET 28,062ms
+[25/12/2022 15.20.27] [200 - OK] /admin/quick-count GET 26,558ms
+[25/12/2022 15.20.27] [200 - OK] /admin/dashboard GET 30,075ms
+[25/12/2022 18.16.39] [200 - OK] /admin/quick-count GET 101,416ms
+[25/12/2022 18.16.39] [200 - OK] /admin/event GET 324,096ms
+[25/12/2022 18.16.39] [200 - OK] /admin/dashboard GET 324,235ms
+[25/12/2022 18.18.05] [200 - OK] /admin/event GET 18,091ms
+[25/12/2022 18.18.05] [200 - OK] /admin/dashboard GET 23,822ms
+[25/12/2022 18.18.05] [200 - OK] /admin/quick-count GET 18,608ms
+[25/12/2022 18.18.05] [200 - OK] /admin/event GET 14,491ms
+[25/12/2022 18.18.05] [200 - OK] /admin/dashboard GET 16,03ms
+[25/12/2022 18.18.05] [200 - OK] /admin/quick-count GET 6,743ms
+[25/12/2022 18.18.11] [200 - OK] /admin/event GET 10,437ms
+[25/12/2022 18.18.11] [200 - OK] /admin/quick-count GET 7,109ms
+[25/12/2022 18.18.11] [200 - OK] /admin/dashboard GET 15,373ms
+[25/12/2022 18.18.16] [200 - OK] /admin/event GET 8,836ms
+[25/12/2022 18.18.16] [200 - OK] /admin/dashboard GET 56,804ms
+[25/12/2022 18.18.16] [200 - OK] /admin/quick-count GET 4,986ms
+[25/12/2022 18.18.26] [200 - OK] /admin/dashboard GET 7,118ms
+[25/12/2022 18.18.26] [200 - OK] /admin/quick-count GET 69,31ms
+[25/12/2022 18.18.56] [200 - OK] /admin/event GET 62,302ms
+[25/12/2022 18.18.56] [200 - OK] /admin/quick-count GET 109,473ms
+[25/12/2022 18.18.56] [200 - OK] /admin/dashboard GET 107,772ms
+[25/12/2022 18.19.43] [304 - Not Modified] /admin/auth GET 101,359ms
+[25/12/2022 18.19.43] [304 - Not Modified] /admin/event GET 5,455ms
+[25/12/2022 18.19.43] [304 - Not Modified] /admin/dashboard GET 7,241ms
+[25/12/2022 18.19.43] [304 - Not Modified] /admin/quick-count GET 4,7ms
+[25/12/2022 18.20.08] [304 - Not Modified] /admin/auth GET 0,763ms
+[25/12/2022 18.20.08] [304 - Not Modified] /admin/event GET 8,268ms
+[25/12/2022 18.20.08] [304 - Not Modified] /admin/dashboard GET 7,649ms
+[25/12/2022 18.20.08] [304 - Not Modified] /admin/quick-count GET 5,003ms
+[25/12/2022 18.20.11] [304 - Not Modified] /admin/auth GET 0,598ms
+[25/12/2022 18.20.11] [304 - Not Modified] /admin/auth GET 0,761ms
+[25/12/2022 18.20.40] [304 - Not Modified] /admin/auth GET 0,854ms
+[25/12/2022 18.20.42] [304 - Not Modified] /admin/auth GET 0,56ms
+[25/12/2022 18.20.54] [304 - Not Modified] /admin/auth GET 0,613ms
+[25/12/2022 18.21.09] [200 - OK] /admin/auth GET 0,575ms
+[25/12/2022 18.21.31] [200 - OK] /admin/auth GET 0,774ms
+[25/12/2022 18.21.32] [200 - OK] /admin/event GET 20,491ms
+[25/12/2022 18.21.32] [200 - OK] /admin/dashboard GET 22,363ms
+[25/12/2022 18.21.32] [200 - OK] /admin/quick-count GET 9,928ms
+[25/12/2022 18.23.04] [200 - OK] /admin/auth GET 1,466ms
+[25/12/2022 18.23.05] [200 - OK] /admin/event GET 46,902ms
+[25/12/2022 18.23.05] [200 - OK] /admin/quick-count GET 369,021ms
+[25/12/2022 18.23.05] [200 - OK] /admin/dashboard GET 378,512ms
+[25/12/2022 18.23.43] [200 - OK] /admin/auth GET 0,822ms
+[25/12/2022 18.23.45] [200 - OK] /admin/event GET 16,931ms
+[25/12/2022 18.23.45] [200 - OK] /admin/quick-count GET 42,282ms
+[25/12/2022 18.23.45] [200 - OK] /admin/dashboard GET 47,669ms
+[25/12/2022 18.23.59] [200 - OK] /admin/auth GET 0,919ms
+[25/12/2022 18.24.19] [200 - OK] /admin/auth GET 0,882ms
+[25/12/2022 18.24.28] [200 - OK] /admin/auth GET 0,776ms
+[25/12/2022 18.24.31] [200 - OK] /admin/auth GET 0,689ms
+[25/12/2022 18.24.32] [200 - OK] /admin/event GET 19,421ms
+[25/12/2022 18.24.32] [200 - OK] /admin/dashboard GET 9,143ms
+[25/12/2022 18.24.32] [200 - OK] /admin/quick-count GET 92,65ms
+[25/12/2022 18.24.50] [200 - OK] /admin/auth GET 0,671ms
+[25/12/2022 18.25.03] [200 - OK] /admin/auth GET 0,772ms
+[25/12/2022 18.25.03] [200 - OK] /admin/auth GET 0,74ms
+[25/12/2022 18.25.03] [200 - OK] /admin/event GET 26,562ms
+[25/12/2022 18.25.03] [200 - OK] /admin/dashboard GET 28,997ms
+[25/12/2022 18.25.03] [200 - OK] /admin/quick-count GET 10,247ms
+[25/12/2022 18.25.08] [200 - OK] /admin/auth GET 1,831ms
+[25/12/2022 18.25.14] [200 - OK] /admin/auth GET 0,983ms
+[25/12/2022 18.25.14] [200 - OK] /admin/auth GET 0,843ms
+[25/12/2022 18.25.15] [200 - OK] /admin/event GET 68,337ms
+[25/12/2022 18.25.15] [200 - OK] /admin/quick-count GET 65,705ms
+[25/12/2022 18.25.15] [200 - OK] /admin/dashboard GET 69,554ms
+[25/12/2022 18.25.29] [200 - OK] /admin/auth GET 0,493ms
+[25/12/2022 18.25.29] [200 - OK] /admin/event GET 10,208ms
+[25/12/2022 18.25.29] [200 - OK] /admin/dashboard GET 17,072ms
+[25/12/2022 18.25.29] [200 - OK] /admin/quick-count GET 4,594ms
+[25/12/2022 18.25.55] [200 - OK] /admin/auth GET 0,615ms
+[25/12/2022 18.25.58] [200 - OK] /admin/auth GET 0,597ms
+[25/12/2022 18.25.59] [200 - OK] /admin/auth GET 0,723ms
+[25/12/2022 18.25.59] [200 - OK] /admin/auth GET 0,45ms
+[25/12/2022 18.25.59] [200 - OK] /admin/auth GET 0,538ms
+[25/12/2022 18.25.59] [200 - OK] /admin/auth GET 0,86ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,704ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 1,092ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,456ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 1,483ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,651ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,844ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,568ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,476ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,588ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,515ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,608ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,579ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,452ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,81ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,972ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,759ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,61ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,526ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,802ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,462ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,479ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 0,538ms
+[25/12/2022 18.26.00] [200 - OK] /admin/auth GET 1,006ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,681ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,638ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,684ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,684ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 9,81ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,759ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,767ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,696ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,626ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,673ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,652ms
+[25/12/2022 18.26.01] [200 - OK] /admin/auth GET 0,685ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 51,173ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,737ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 8,517ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,728ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,73ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,734ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 1,98ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,779ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,67ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,807ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 1,453ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,814ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,702ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 1,7ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,676ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,618ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 1,549ms
+[25/12/2022 18.26.02] [200 - OK] /admin/auth GET 0,734ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,672ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,793ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,719ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,749ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,761ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,716ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,739ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,774ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 1,637ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,834ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,735ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,702ms
+[25/12/2022 18.26.03] [200 - OK] /admin/auth GET 0,711ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,777ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,778ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,746ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,795ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,902ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,745ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,716ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,727ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,701ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 1,766ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 1,185ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,696ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,763ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,673ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,769ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 1,44ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,699ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,699ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,724ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 1,058ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,774ms
+[25/12/2022 18.26.04] [200 - OK] /admin/auth GET 0,756ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 1,546ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,657ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,7ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,723ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,61ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,614ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,662ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,651ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,71ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,775ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,66ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,746ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,691ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,652ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,821ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,73ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,861ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,835ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,825ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,748ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,767ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,72ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,763ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,757ms
+[25/12/2022 18.26.05] [200 - OK] /admin/auth GET 0,674ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,67ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,708ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,62ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 1,191ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,811ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,68ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,757ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 1,043ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,584ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,741ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,676ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,744ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,622ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,669ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,684ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,743ms
+[25/12/2022 18.26.06] [200 - OK] /admin/auth GET 0,641ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,939ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,792ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,682ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,756ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,699ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,873ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,802ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,73ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,643ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,611ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,682ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,782ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,701ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,628ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,63ms
+[25/12/2022 18.26.07] [200 - OK] /admin/auth GET 0,806ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,775ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,691ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,688ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,618ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,739ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,765ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,715ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,804ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,708ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,615ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,766ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,824ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,724ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,659ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,765ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,924ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,708ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,719ms
+[25/12/2022 18.26.08] [200 - OK] /admin/auth GET 0,737ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,671ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,618ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 1,086ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,739ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,792ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 1,238ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,769ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,698ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,715ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,8ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,727ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 1,689ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 1,316ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,648ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,668ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,648ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 1,151ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,67ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,738ms
+[25/12/2022 18.26.09] [200 - OK] /admin/auth GET 0,717ms
+[25/12/2022 18.26.10] [200 - OK] /admin/auth GET 0,75ms
+[25/12/2022 18.26.10] [200 - OK] /admin/auth GET 0,925ms
+[25/12/2022 18.26.10] [200 - OK] /admin/auth GET 0,743ms
+[25/12/2022 18.26.10] [200 - OK] /admin/auth GET 51,686ms
+[25/12/2022 18.26.13] [200 - OK] /admin/auth GET 0,766ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,907ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,743ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,82ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,997ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,714ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,777ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,734ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 1,976ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,664ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,666ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,656ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,685ms
+[25/12/2022 18.26.14] [200 - OK] /admin/auth GET 0,628ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,73ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,844ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,651ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,732ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,662ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,87ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 1,031ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 1,066ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,68ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 1,292ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,814ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,799ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,735ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,814ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,744ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,933ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,703ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,688ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,73ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,717ms
+[25/12/2022 18.26.15] [200 - OK] /admin/auth GET 0,876ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,838ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,692ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,834ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,705ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,629ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,669ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,723ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,796ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,806ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,969ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,789ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,796ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,72ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,788ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,833ms
+[25/12/2022 18.26.16] [200 - OK] /admin/auth GET 0,747ms
+[25/12/2022 18.26.17] [200 - OK] /admin/auth GET 0,692ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,769ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,748ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,638ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,773ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,717ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,73ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,779ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,67ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,676ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,72ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,79ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,746ms
+[25/12/2022 18.26.18] [200 - OK] /admin/auth GET 0,774ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,793ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,73ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,946ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,738ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,679ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,726ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,762ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,719ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,924ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,718ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,696ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,732ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 1,126ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,736ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,653ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,804ms
+[25/12/2022 18.26.19] [200 - OK] /admin/auth GET 0,852ms
+[25/12/2022 18.26.20] [200 - OK] /admin/auth GET 0,806ms
+[25/12/2022 18.26.20] [200 - OK] /admin/auth GET 0,696ms
+[25/12/2022 18.26.25] [200 - OK] /admin/auth GET 0,67ms
+[25/12/2022 18.26.27] [200 - OK] /admin/event GET 10,979ms
+[25/12/2022 18.26.27] [200 - OK] /admin/dashboard GET 16,396ms
+[25/12/2022 18.26.27] [200 - OK] /admin/quick-count GET 5,246ms
+[25/12/2022 18.26.36] [200 - OK] /admin/auth GET 0,859ms
+[25/12/2022 18.26.37] [200 - OK] /admin/event GET 7,363ms
+[25/12/2022 18.26.37] [200 - OK] /admin/quick-count GET 11,497ms
+[25/12/2022 18.26.37] [200 - OK] /admin/dashboard GET 15,297ms
+[25/12/2022 18.27.25] [200 - OK] /admin/auth GET 0,561ms
+[25/12/2022 18.27.26] [200 - OK] /admin/event GET 186,463ms
+[25/12/2022 18.27.27] [200 - OK] /admin/dashboard GET 453,11ms
+[25/12/2022 18.27.27] [200 - OK] /admin/quick-count GET 676,706ms
+[25/12/2022 21.32.31] [200 - OK] /admin/auth GET 17,823ms
+[25/12/2022 21.32.32] [200 - OK] /admin/event GET 69,899ms
+[25/12/2022 21.32.32] [200 - OK] /admin/quick-count GET 32,039ms
+[25/12/2022 21.32.32] [200 - OK] /admin/dashboard GET 38,8ms
+[25/12/2022 21.35.01] [304 - Not Modified] /admin/auth GET 2,605ms
+[25/12/2022 21.35.10] [200 - OK] /admin/auth GET 1,145ms
+[25/12/2022 21.35.10] [200 - OK] /admin/event GET 83,016ms
+[25/12/2022 21.35.10] [200 - OK] /admin/quick-count GET 72,35ms
+[25/12/2022 21.35.10] [200 - OK] /admin/dashboard GET 80,097ms
+[25/12/2022 21.35.12] [304 - Not Modified] /admin/auth GET 1,176ms
+[25/12/2022 21.35.16] [304 - Not Modified] /admin/auth GET 1,178ms
+[25/12/2022 21.43.37] [200 - OK] /login POST 1.086,516ms
+[25/12/2022 21.44.09] [200 - OK] /admin/auth GET 0,7ms
+[25/12/2022 21.44.10] [200 - OK] /admin/event GET 252,864ms
+[25/12/2022 21.44.10] [200 - OK] /admin/dashboard GET 104,741ms
+[25/12/2022 21.44.10] [200 - OK] /admin/quick-count GET 54,92ms
+[25/12/2022 21.45.06] [200 - OK] /admin/auth GET 1,425ms
+[25/12/2022 21.45.07] [200 - OK] /admin/event GET 29,677ms
+[25/12/2022 21.45.07] [200 - OK] /admin/quick-count GET 16,771ms
+[25/12/2022 21.45.07] [200 - OK] /admin/dashboard GET 22,218ms
+[25/12/2022 21.45.11] [200 - OK] /admin/auth GET 0,753ms
+[25/12/2022 21.47.42] [200 - OK] /login POST 105,306ms
+[25/12/2022 21.48.02] [200 - OK] /admin/auth GET 0,532ms
+[25/12/2022 21.48.03] [200 - OK] /admin/event GET 19,686ms
+[25/12/2022 21.48.03] [200 - OK] /admin/quick-count GET 23,853ms
+[25/12/2022 21.48.03] [200 - OK] /admin/dashboard GET 27,705ms
+[25/12/2022 21.48.35] [200 - OK] /admin/auth GET 0,543ms
+[25/12/2022 21.48.36] [200 - OK] /admin/event GET 17,419ms
+[25/12/2022 21.48.36] [200 - OK] /admin/quick-count GET 25,21ms
+[25/12/2022 21.48.36] [200 - OK] /admin/dashboard GET 31,6ms
+[25/12/2022 21.48.49] [200 - OK] /admin/auth GET 0,537ms
+[25/12/2022 21.49.02] [200 - OK] /login POST 192,493ms
+[25/12/2022 21.49.03] [200 - OK] /admin/auth GET 0,491ms
+[25/12/2022 21.49.03] [200 - OK] /admin/event GET 30,627ms
+[25/12/2022 21.49.03] [200 - OK] /admin/dashboard GET 33,219ms
+[25/12/2022 21.49.03] [200 - OK] /admin/quick-count GET 9,62ms
+[25/12/2022 21.49.30] [304 - Not Modified] /admin/auth GET 19,398ms
+[25/12/2022 21.49.30] [304 - Not Modified] /admin/event GET 5,096ms
+[25/12/2022 21.50.14] [200 - OK] /admin/event PUT 37,121ms
+[25/12/2022 21.50.14] [200 - OK] /admin/event GET 4,135ms
+[25/12/2022 21.50.20] [304 - Not Modified] /admin/auth GET 0,448ms
+[25/12/2022 21.50.20] [304 - Not Modified] /admin/event GET 13,303ms
+[25/12/2022 21.50.20] [304 - Not Modified] /admin/dashboard GET 18,819ms
+[25/12/2022 21.50.20] [304 - Not Modified] /admin/quick-count GET 6,615ms
+[25/12/2022 21.51.53] [304 - Not Modified] /admin/quick-count GET 11,401ms
+[25/12/2022 21.51.53] [304 - Not Modified] /admin/dashboard GET 16,558ms
+[25/12/2022 21.51.53] [304 - Not Modified] /admin/quick-count GET 9,593ms
+[25/12/2022 21.51.53] [304 - Not Modified] /admin/dashboard GET 6,58ms
+[25/12/2022 21.51.53] [304 - Not Modified] /admin/quick-count GET 6,461ms
+[25/12/2022 21.51.53] [304 - Not Modified] /admin/dashboard GET 6,839ms
+[25/12/2022 22.12.06] [200 - OK] / GET 39,293ms
+[25/12/2022 22.12.06] [404 - Not Found] /favicon.ico GET 29,219ms
+[25/12/2022 22.19.03] [200 - OK] / GET 4,67ms
+[25/12/2022 22.23.15] [400 - Bad Request] /login POST 5,243ms
+[25/12/2022 22.24.06] [404 - Not Found] /login POST 595,839ms
+[25/12/2022 22.24.06] [404 - Not Found] /login POST 28,14ms
+[25/12/2022 22.25.48] [200 - OK] /login POST 1.151,363ms
+[25/12/2022 22.28.37] [200 - OK] /login POST 95,944ms
+[25/12/2022 22.29.27] [200 - OK] /login POST 97,439ms
+[25/12/2022 22.32.55] [200 - OK] /user/auth GET 1,611ms
+[25/12/2022 22.33.15] [200 - OK] /login POST 137,968ms
+[25/12/2022 22.33.44] [200 - OK] /login POST 121,096ms
+[25/12/2022 22.33.46] [200 - OK] /user/auth GET 1,393ms
+[25/12/2022 22.36.29] [200 - OK] /user/auth GET 1,577ms
+[25/12/2022 22.36.30] [200 - OK] /user/profile/329 GET 34,984ms
+[25/12/2022 22.36.49] [200 - OK] /user/profile/329 GET 4,124ms
+[25/12/2022 22.36.55] [200 - OK] /user/profile/329 GET 2,821ms
+[25/12/2022 22.37.07] [200 - OK] /user/profile/329 GET 3,603ms
+[25/12/2022 22.37.12] [200 - OK] /user/profile/329 GET 2,712ms
+[25/12/2022 22.37.21] [200 - OK] /user/profile/329 GET 3,068ms
+[25/12/2022 22.37.33] [200 - OK] /user/profile/329 GET 2,016ms
+[25/12/2022 22.37.38] [200 - OK] /user/profile/329 GET 3,144ms
+[25/12/2022 22.37.39] [200 - OK] /user/profile/329 GET 3,332ms
+[25/12/2022 22.37.45] [200 - OK] /user/profile/329 GET 3,363ms
+[25/12/2022 22.37.45] [200 - OK] /user/profile/329 GET 2,939ms
+[25/12/2022 22.37.45] [200 - OK] / GET 0,778ms
+[25/12/2022 22.37.51] [200 - OK] /user/profile/329 GET 2,639ms
+[25/12/2022 22.37.51] [404 - Not Found] /user/ GET 6,667ms
+[25/12/2022 22.37.58] [200 - OK] /user/profile/329 GET 2,783ms
+[25/12/2022 22.37.58] [200 - OK] /user/event GET 324,218ms
+[25/12/2022 22.38.08] [200 - OK] /user/profile/329 GET 2,734ms
+[25/12/2022 22.38.08] [200 - OK] /user/event GET 5,312ms
+[25/12/2022 22.38.12] [200 - OK] /user/profile/329 GET 2,57ms
+[25/12/2022 22.38.12] [200 - OK] /user/event GET 3,732ms
+[25/12/2022 22.38.20] [200 - OK] /user/profile/329 GET 3,177ms
+[25/12/2022 22.38.20] [200 - OK] /user/event GET 4,028ms
+[25/12/2022 22.38.23] [200 - OK] /user/profile/329 GET 2,876ms
+[25/12/2022 22.38.23] [200 - OK] /user/event GET 4,526ms
+[25/12/2022 22.38.29] [200 - OK] /user/profile/329 GET 2,991ms
+[25/12/2022 22.38.29] [200 - OK] /user/event GET 4,982ms
+[25/12/2022 22.38.57] [200 - OK] /user/profile/329 GET 2,637ms
+[25/12/2022 22.38.58] [200 - OK] /user/event GET 7,281ms
+[25/12/2022 22.38.58] [200 - OK] /user/profile/329 GET 3,134ms
+[25/12/2022 22.38.58] [200 - OK] /user/event GET 4,027ms
+[25/12/2022 22.39.00] [200 - OK] /user/profile/329 GET 2,502ms
+[25/12/2022 22.39.00] [200 - OK] /user/event GET 4,483ms
+[25/12/2022 22.39.01] [200 - OK] /user/profile/329 GET 2,754ms
+[25/12/2022 22.39.01] [200 - OK] /user/event GET 4,664ms
+[25/12/2022 22.39.07] [200 - OK] /user/profile/329 GET 2,884ms
+[25/12/2022 22.39.07] [200 - OK] /user/event GET 3,823ms
+[25/12/2022 22.39.09] [200 - OK] /user/profile/329 GET 2,718ms
+[25/12/2022 22.39.09] [200 - OK] /user/event GET 4,176ms
+[25/12/2022 22.39.18] [200 - OK] /user/profile/329 GET 2,607ms
+[25/12/2022 22.39.18] [200 - OK] /user/event GET 4,941ms
+[25/12/2022 22.39.23] [200 - OK] /user/profile/329 GET 4,123ms
+[25/12/2022 22.39.23] [200 - OK] /user/event GET 4,205ms
+[25/12/2022 22.39.41] [200 - OK] /user/profile/329 GET 2,258ms
+[25/12/2022 22.39.41] [200 - OK] /user/event GET 7,243ms
+[25/12/2022 22.39.43] [200 - OK] /user/profile/329 GET 1,849ms
+[25/12/2022 22.39.43] [200 - OK] /user/event GET 4,144ms
+[25/12/2022 22.39.47] [200 - OK] /user/profile/329 GET 3,442ms
+[25/12/2022 22.39.47] [200 - OK] /user/event GET 4,103ms
+[25/12/2022 22.39.51] [200 - OK] /user/profile/329 GET 2,623ms
+[25/12/2022 22.39.51] [200 - OK] /user/event GET 4,298ms
+[25/12/2022 22.40.06] [200 - OK] /user/profile/329 GET 4,184ms
+[25/12/2022 22.40.06] [200 - OK] /user/event GET 11,161ms
+[25/12/2022 22.40.07] [200 - OK] /user/profile/329 GET 2,535ms
+[25/12/2022 22.40.07] [200 - OK] /user/event GET 3,915ms
+[25/12/2022 22.40.21] [200 - OK] /user/auth GET 0,639ms
+[25/12/2022 22.40.21] [200 - OK] /user/profile/329 GET 4,111ms
+[25/12/2022 22.40.21] [200 - OK] /user/event GET 8,294ms
+[25/12/2022 22.40.58] [200 - OK] /user/profile/329 GET 2,005ms
+[25/12/2022 22.40.58] [200 - OK] /user/event GET 5,991ms
+[25/12/2022 22.40.59] [200 - OK] /user/profile/329 GET 2,714ms
+[25/12/2022 22.40.59] [200 - OK] /user/event GET 4,059ms
+[25/12/2022 22.41.05] [200 - OK] /user/profile/329 GET 15,88ms
+[25/12/2022 22.41.05] [200 - OK] /user/event GET 4,136ms
+[25/12/2022 22.41.16] [200 - OK] /user/profile/329 GET 2,755ms
+[25/12/2022 22.41.16] [200 - OK] /user/event GET 17,59ms
+[25/12/2022 22.42.05] [304 - Not Modified] /user/auth GET 11,921ms
+[25/12/2022 22.44.42] [304 - Not Modified] / GET 0,975ms
+[25/12/2022 22.44.48] [200 - OK] /user/candidate GET 93,988ms
+[25/12/2022 22.44.49] [304 - Not Modified] /user/candidate GET 2,59ms
+[25/12/2022 22.44.57] [304 - Not Modified] /user/candidate GET 3,053ms
+[25/12/2022 22.45.05] [200 - OK] /user/auth GET 0,661ms
+[25/12/2022 22.45.05] [200 - OK] /user/candidate GET 2,783ms
+[25/12/2022 22.47.20] [200 - OK] /user/candidate GET 3,556ms
+[25/12/2022 22.47.30] [200 - OK] /user/candidate GET 2,872ms
+[25/12/2022 22.47.32] [200 - OK] /user/candidate GET 2,548ms
+[25/12/2022 22.47.37] [200 - OK] /user/candidate GET 2,232ms
+[25/12/2022 22.47.40] [200 - OK] /user/candidate GET 2,74ms
+[25/12/2022 22.47.46] [200 - OK] /user/candidate GET 2,805ms
+[25/12/2022 22.47.54] [200 - OK] /user/candidate GET 4,343ms
+[25/12/2022 22.55.01] [200 - OK] /user/auth GET 7,189ms
+[25/12/2022 22.55.02] [200 - OK] /user/candidate GET 62,681ms
+[25/12/2022 22.55.20] [304 - Not Modified] /user/auth GET 0,898ms
+[25/12/2022 22.55.21] [200 - OK] /user/profile/329 GET 3,652ms
+[25/12/2022 22.55.22] [200 - OK] /user/event GET 1.144,731ms
+[25/12/2022 22.55.25] [304 - Not Modified] /user/auth GET 0,58ms
+[25/12/2022 22.55.25] [304 - Not Modified] /user/candidate GET 8,925ms
+[25/12/2022 23.03.12] [200 - OK] /user/auth GET 1,647ms
+[25/12/2022 23.03.12] [200 - OK] /user/candidate GET 31,319ms
+[25/12/2022 23.03.26] [200 - OK] /user/auth GET 1,275ms
+[25/12/2022 23.03.26] [200 - OK] /user/profile/329 GET 3,97ms
+[25/12/2022 23.03.26] [200 - OK] /user/event GET 8,538ms
+[25/12/2022 23.03.44] [200 - OK] /user/auth GET 0,742ms
+[25/12/2022 23.03.44] [200 - OK] /user/candidate GET 6,208ms
+[25/12/2022 23.03.54] [200 - OK] /user/auth GET 0,862ms
+[25/12/2022 23.03.55] [200 - OK] /user/profile/329 GET 2,98ms
+[25/12/2022 23.03.55] [200 - OK] /user/event GET 11,265ms
+[25/12/2022 23.04.09] [200 - OK] /user/auth GET 0,544ms
+[25/12/2022 23.04.09] [200 - OK] /user/candidate GET 5,868ms
+[25/12/2022 23.04.19] [500 - Internal Server Error] /user/vote/329/undefined PUT 220,979ms
+[25/12/2022 23.05.14] [200 - OK] /user/auth GET 0,601ms
+[25/12/2022 23.05.14] [200 - OK] /user/candidate GET 15,08ms
+[25/12/2022 23.05.45] [200 - OK] /user/auth GET 0,522ms
+[25/12/2022 23.05.45] [200 - OK] /user/event GET 12,656ms
+[25/12/2022 23.05.45] [200 - OK] /user/profile/329 GET 5,995ms
+[25/12/2022 23.07.08] [200 - OK] /user/auth GET 0,7ms
+[25/12/2022 23.07.08] [200 - OK] /user/profile/329 GET 3,945ms
+[25/12/2022 23.07.08] [200 - OK] /user/event GET 12,012ms
+[25/12/2022 23.07.28] [200 - OK] /user/auth GET 0,677ms
+[25/12/2022 23.07.28] [200 - OK] /user/candidate GET 5,477ms
+[25/12/2022 23.07.42] [200 - OK] /user/vote/329/5 PUT 296,805ms
+[25/12/2022 23.07.56] [304 - Not Modified] /user/auth GET 0,53ms
+[25/12/2022 23.07.56] [200 - OK] /user/profile/329 GET 3,755ms
+[25/12/2022 23.07.56] [200 - OK] /user/event GET 10,581ms
+[25/12/2022 23.08.00] [304 - Not Modified] /user/auth GET 0,878ms
+[25/12/2022 23.08.00] [304 - Not Modified] /user/candidate GET 5,69ms
+[25/12/2022 23.12.11] [304 - Not Modified] /user/auth GET 4,113ms
+[25/12/2022 23.12.11] [304 - Not Modified] /user/profile/329 GET 9,825ms
+[25/12/2022 23.12.11] [304 - Not Modified] /user/event GET 15,697ms
+[25/12/2022 23.12.13] [304 - Not Modified] /user/auth GET 0,619ms
+[25/12/2022 23.12.13] [304 - Not Modified] /user/profile/329 GET 5,302ms
+[25/12/2022 23.12.13] [304 - Not Modified] /user/event GET 6,47ms
+[25/12/2022 23.19.09] [304 - Not Modified] /user/auth GET 0,891ms
+[25/12/2022 23.19.09] [304 - Not Modified] /user/candidate GET 10,679ms
+[25/12/2022 23.34.19] [200 - Forbidden] /user/vote/329/5 PUT 45,683ms
+[25/12/2022 23.35.15] [304 - Not Modified] /user/auth GET 3,573ms
+[25/12/2022 23.35.16] [304 - Not Modified] /user/candidate GET 116,942ms
+[25/12/2022 23.35.33] [304 - Not Modified] /user/auth GET 0,903ms
+[25/12/2022 23.35.33] [304 - Not Modified] /user/profile/329 GET 5,257ms
+[25/12/2022 23.35.34] [304 - Not Modified] /user/event GET 534,853ms
+[25/12/2022 23.35.39] [304 - Not Modified] /user/auth GET 0,769ms
+[25/12/2022 23.35.39] [304 - Not Modified] /user/candidate GET 6,588ms
+[25/12/2022 23.35.53] [200 - Forbidden] /user/vote/329/5 PUT 10,881ms
+[25/12/2022 23.36.49] [304 - Not Modified] /user/auth GET 0,785ms
+[25/12/2022 23.36.49] [304 - Not Modified] /user/profile/329 GET 5,573ms
+[25/12/2022 23.36.49] [304 - Not Modified] /user/event GET 12,667ms
+[25/12/2022 23.36.53] [304 - Not Modified] /user/auth GET 1,222ms
+[25/12/2022 23.36.53] [304 - Not Modified] /user/candidate GET 4,987ms
+[25/12/2022 23.37.03] [200 - Forbidden] /user/vote/329/6 PUT 8,809ms
+[25/12/2022 23.37.07] [304 - Not Modified] /user/auth GET 0,493ms
+[25/12/2022 23.37.07] [304 - Not Modified] /user/profile/329 GET 2,22ms
+[25/12/2022 23.37.07] [304 - Not Modified] /user/event GET 3,609ms
+[25/12/2022 23.37.23] [304 - Not Modified] /user/auth GET 0,589ms
+[25/12/2022 23.37.23] [304 - Not Modified] /user/candidate GET 8,692ms
+[25/12/2022 23.39.51] [200 - Forbidden] /user/vote/329/5 PUT 8,507ms
+[25/12/2022 23.40.26] [304 - Not Modified] /user/auth GET 3,659ms
+[25/12/2022 23.40.26] [304 - Not Modified] /user/profile/329 GET 9,552ms
+[25/12/2022 23.40.26] [304 - Not Modified] /user/event GET 16,176ms
+[25/12/2022 23.40.30] [304 - Not Modified] /user/auth GET 1,778ms
+[25/12/2022 23.40.30] [304 - Not Modified] /user/candidate GET 12,077ms
+[25/12/2022 23.40.41] [200 - Forbidden] /user/vote/329/5 PUT 18,332ms
+[25/12/2022 23.41.26] [304 - Not Modified] /user/auth GET 3,654ms
+[25/12/2022 23.41.26] [304 - Not Modified] /user/profile/329 GET 7,47ms
+[25/12/2022 23.41.26] [304 - Not Modified] /user/event GET 14,462ms
+[25/12/2022 23.41.29] [304 - Not Modified] /user/auth GET 0,59ms
+[25/12/2022 23.41.29] [304 - Not Modified] /user/candidate GET 9,407ms
+[25/12/2022 23.41.46] [200 - Forbidden] /user/vote/329/5 PUT 18,889ms
+[25/12/2022 23.42.11] [304 - Not Modified] /user/auth GET 3,596ms
+[25/12/2022 23.42.12] [304 - Not Modified] /user/profile/329 GET 14,193ms
+[25/12/2022 23.42.12] [304 - Not Modified] /user/event GET 10,797ms
+[25/12/2022 23.42.15] [304 - Not Modified] /user/auth GET 0,583ms
+[25/12/2022 23.42.15] [304 - Not Modified] /user/candidate GET 11,763ms
+[25/12/2022 23.42.36] [403 - Forbidden] /user/vote/329/5 PUT 14,036ms
+[25/12/2022 23.42.40] [304 - Not Modified] /user/auth GET 0,988ms
+[25/12/2022 23.42.41] [304 - Not Modified] /user/profile/329 GET 8,018ms
+[25/12/2022 23.42.41] [304 - Not Modified] /user/event GET 9,796ms
+[25/12/2022 23.43.07] [304 - Not Modified] /user/auth GET 3,511ms
+[25/12/2022 23.43.07] [304 - Not Modified] /user/candidate GET 17,437ms
+[25/12/2022 23.43.15] [403 - Forbidden] /user/vote/329/5 PUT 10,133ms
+[25/12/2022 23.43.20] [304 - Not Modified] /user/auth GET 0,514ms
+[25/12/2022 23.43.20] [304 - Not Modified] /user/profile/329 GET 4,044ms
+[25/12/2022 23.43.20] [304 - Not Modified] /user/event GET 7,723ms
+[25/12/2022 23.47.28] [200 - OK] /login POST 304,9ms
+[25/12/2022 23.47.51] [200 - OK] /login POST 186,972ms
+[25/12/2022 23.48.07] [200 - OK] /admin/auth GET 0,815ms
+[25/12/2022 23.48.20] [200 - OK] /login POST 102,094ms
+[25/12/2022 23.48.21] [200 - OK] /admin/auth GET 0,815ms
+[25/12/2022 23.48.22] [200 - OK] /admin/event GET 510,432ms
+[25/12/2022 23.48.22] [200 - OK] /admin/dashboard GET 530,039ms
+[25/12/2022 23.48.22] [200 - OK] /admin/quick-count GET 530,928ms
+[25/12/2022 23.48.42] [304 - Not Modified] /user/auth GET 1,641ms
+[25/12/2022 23.48.42] [304 - Not Modified] /user/profile/329 GET 4,676ms
+[25/12/2022 23.48.42] [304 - Not Modified] /user/event GET 11,087ms
+[25/12/2022 23.50.46] [304 - Not Modified] /user/profile/329 GET 3,929ms
+[25/12/2022 23.50.46] [304 - Not Modified] /user/event GET 220,835ms
+[25/12/2022 23.50.50] [304 - Not Modified] /user/profile/329 GET 2,874ms
+[25/12/2022 23.50.50] [304 - Not Modified] /user/event GET 4,449ms
+[25/12/2022 23.50.53] [304 - Not Modified] /user/profile/329 GET 2,986ms
+[25/12/2022 23.50.53] [304 - Not Modified] /user/event GET 4,822ms
+[25/12/2022 23.50.58] [304 - Not Modified] /user/profile/329 GET 2,961ms
+[25/12/2022 23.50.58] [304 - Not Modified] /user/event GET 4,932ms
+[25/12/2022 23.51.06] [304 - Not Modified] /user/profile/329 GET 3,682ms
+[25/12/2022 23.51.06] [304 - Not Modified] /user/event GET 4,394ms
+[25/12/2022 23.51.10] [304 - Not Modified] /user/profile/329 GET 2,512ms
+[25/12/2022 23.51.10] [304 - Not Modified] /user/event GET 7,394ms
+[25/12/2022 23.51.11] [304 - Not Modified] /user/profile/329 GET 2,899ms
+[25/12/2022 23.51.11] [304 - Not Modified] /user/event GET 4,232ms
+[25/12/2022 23.51.19] [304 - Not Modified] /user/profile/329 GET 3,009ms
+[25/12/2022 23.51.19] [304 - Not Modified] /user/event GET 7,683ms
+[25/12/2022 23.51.20] [304 - Not Modified] /user/profile/329 GET 2,736ms
+[25/12/2022 23.51.21] [304 - Not Modified] /user/event GET 4,025ms
+[25/12/2022 23.51.49] [304 - Not Modified] /user/profile/329 GET 3,093ms
+[25/12/2022 23.51.49] [304 - Not Modified] /user/event GET 194,237ms
+[25/12/2022 23.51.50] [304 - Not Modified] /user/profile/329 GET 4,136ms
+[25/12/2022 23.51.50] [304 - Not Modified] /user/event GET 3,879ms
+[25/12/2022 23.51.59] [304 - Not Modified] /user/profile/329 GET 3,125ms
+[25/12/2022 23.51.59] [304 - Not Modified] /user/event GET 3,906ms
+[25/12/2022 23.52.03] [304 - Not Modified] /user/profile/329 GET 2,974ms
+[25/12/2022 23.52.03] [304 - Not Modified] /user/event GET 3,957ms
+[25/12/2022 23.52.08] [304 - Not Modified] /user/profile/329 GET 4,199ms
+[25/12/2022 23.52.08] [304 - Not Modified] /user/event GET 3,792ms
+[25/12/2022 23.52.20] [304 - Not Modified] /user/auth GET 0,903ms
+[25/12/2022 23.52.20] [304 - Not Modified] /user/profile/329 GET 3,772ms
+[25/12/2022 23.52.20] [304 - Not Modified] /user/event GET 11,273ms
+[25/12/2022 23.52.26] [200 - OK] /logout PUT 2.084,545ms
+[25/12/2022 23.52.26] [304 - Not Modified] /user/auth GET 0,739ms
+[25/12/2022 23.52.36] [304 - Not Modified] /user/auth GET 1,121ms
+[25/12/2022 23.52.36] [200 - OK] /user/profile/329 GET 2,636ms
+[25/12/2022 23.52.36] [304 - Not Modified] /user/event GET 5,756ms
+[25/12/2022 23.53.33] [304 - Not Modified] /user/profile/329 GET 2,742ms
+[25/12/2022 23.53.33] [304 - Not Modified] /user/event GET 7,133ms
+[25/12/2022 23.53.37] [304 - Not Modified] /user/profile/329 GET 2,953ms
+[25/12/2022 23.53.37] [304 - Not Modified] /user/event GET 3,808ms
+[25/12/2022 23.53.40] [304 - Not Modified] /user/profile/329 GET 2,813ms
+[25/12/2022 23.53.40] [304 - Not Modified] /user/event GET 4,234ms
+[25/12/2022 23.53.43] [304 - Not Modified] /user/profile/329 GET 2,714ms
+[25/12/2022 23.53.43] [304 - Not Modified] /user/event GET 5,014ms
+[25/12/2022 23.53.45] [304 - Not Modified] /user/profile/329 GET 3,908ms
+[25/12/2022 23.53.45] [304 - Not Modified] /user/event GET 3,931ms
+[25/12/2022 23.53.47] [304 - Not Modified] /user/profile/329 GET 2,857ms
+[25/12/2022 23.53.47] [304 - Not Modified] /user/event GET 4,091ms
+[25/12/2022 23.53.50] [304 - Not Modified] /user/profile/329 GET 2,845ms
+[25/12/2022 23.53.50] [304 - Not Modified] /user/event GET 3,736ms
+[25/12/2022 23.53.52] [304 - Not Modified] /user/profile/329 GET 2,832ms
+[25/12/2022 23.53.52] [304 - Not Modified] /user/event GET 3,834ms
+[25/12/2022 23.53.54] [304 - Not Modified] /user/profile/329 GET 2,669ms
+[25/12/2022 23.53.54] [304 - Not Modified] /user/event GET 4,474ms
+[25/12/2022 23.53.58] [200 - OK] /user/auth GET 0,788ms
+[25/12/2022 23.53.59] [200 - OK] /user/profile/329 GET 3,627ms
+[25/12/2022 23.53.59] [200 - OK] /user/event GET 7,393ms
+[25/12/2022 23.54.04] [304 - Not Modified] /user/auth GET 0,686ms
+[25/12/2022 23.54.53] [200 - OK] /admin/auth GET 0,647ms
+[25/12/2022 23.54.53] [304 - Not Modified] /admin/event GET 19,031ms
+[25/12/2022 23.54.53] [304 - Not Modified] /admin/quick-count GET 232,099ms
+[25/12/2022 23.54.53] [304 - Not Modified] /admin/dashboard GET 234,837ms
+[25/12/2022 23.55.47] [200 - OK] /login POST 14.541,563ms
+[26/12/2022 00.26.08] [304 - Not Modified] /admin/auth GET 2,314ms
+[26/12/2022 00.26.09] [304 - Not Modified] /admin/event GET 102,219ms
+[26/12/2022 00.26.09] [304 - Not Modified] /admin/dashboard GET 66,041ms
+[26/12/2022 00.26.09] [304 - Not Modified] /admin/quick-count GET 10,934ms
+[26/12/2022 00.27.18] [200 - OK] /user/auth GET 291,156ms
+[26/12/2022 00.27.19] [200 - OK] /user/profile/328 GET 690,299ms
+[26/12/2022 00.27.25] [304 - Not Modified] /user/event GET 1.112,465ms

@@ -24,12 +24,12 @@ module.exports = {
             // not authenticated
             if ( user === null ) return notFound('username or password is wrong', res)
             // authenticated
-            jwt.sign({ username, password, role: user.role }, process.env.JWT_SECRET_KEY, { expiresIn: '1h' }, 
+            jwt.sign({ username, password, role: user.role }, process.env.JWT_SECRET_KEY, { expiresIn: '6h' }, 
                 async (err, token) => {
                     if (err) return serverError(err, res)
                     user.token = token
                     await user.save()
-                    success({ token, role: user.role }, res)
+                    success({ token, role: user.role, userId: user.id }, res)
                 }
             )
         } catch(err) { serverError(err, res) }

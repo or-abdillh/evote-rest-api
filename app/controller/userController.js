@@ -1,9 +1,12 @@
 'use strict'
 
+require('dotenv').config({ path: process.cwd() + '/.env' })
+
 const fs = require('fs')
 const md5 = require('md5')
 const readExcel = require('read-excel-file/node')
 const exceljs = require('exceljs')
+const Pusher = require('../helpers/pusher')
 const { User, Event, Candidate } = require('../database').models
 const { success, serverError, notFound, badRequest, forbidden } = require('../helpers/JSONResponse.js')
 
@@ -11,9 +14,18 @@ module.exports = {
 
     async index(req, res) {
         try {
-            const users = await User.findAll()
+            const users = await User.findAll({
+                where: {
+                    role: 'general'
+                },
+                order: [
+                    [ 'fullname', 'ASC' ]
+                ]
+            })
             success(users, res)
-        } catch(err) { serverError(err, res) }
+        } catch(err) { 
+            serverError(err, res)
+        }
     },
 
     async show(req, res) {
@@ -48,7 +60,9 @@ module.exports = {
     },
 
     async destroyAll(req, res) {
-        await User.destroy({ truncate: true })
+        await User.destroy({
+            where: { role: 'general' }
+        })
         success('Delete all user records success', res)
     },
 
@@ -87,15 +101,22 @@ module.exports = {
                     // validate user
                     const user = await User.findOne({ where: { id: user_id } })
                     if ( user !== null ) {
-                        if ( user.status ) forbidden('You cant submit vote again', res)
-                        else {
-                            // submit vote
+                        if ( user.status ) return forbidden('You cant submit vote again', res)
+                        else if ( !user.status ) {
+                            // submi    t vote
                             user.candidate_id = candidate_id
                             user.status = true
                             user.timestamp = new Date()
                             await user.save()
+                            // trigger event
+                            Pusher.trigger(
+                                process.env.PUSHER_CHANNEL, 'user-has-voted', {
+                                        message: `User ${ user.fullname } has voted`
+                                    }
+                                )
+                            }
+                            // Send response
                             success('Success submit vote', res)
-                        }
                     } else notFound('User not found', res)
                 } else notFound('Candidate data not found', res)
             } catch(err) { serverError(err, res) }

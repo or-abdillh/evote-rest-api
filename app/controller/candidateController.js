@@ -18,11 +18,9 @@ const candidateController = {
 
             // Get file detail
             const path = image.tempFilePath
-            const format = image.name.split('.')
             const filename = `${ file }-${ new Date().getTime() }`
 
             // Upload into cloudinary
-            console.log(filename)
             try {
                 const uploaded = await cloudinary.uploader.upload(path, { public_id: filename })
                 paths[file] = uploaded.secure_url
@@ -49,7 +47,7 @@ const candidateController = {
     },
 
     async index(req, res) {
-        const candidates = await Candidate.findAll()
+        const candidates = await Candidate.findAll({ order: [ ['candidate_number', 'ASC'] ] })
         success(candidates, res)
     },
 
@@ -107,7 +105,7 @@ const candidateController = {
                     
                     // Reupload
                     candidateController
-                        .uploadImages(req.files, async paths => {
+                        .uploadImages(req.files, res, async paths => {
                             // save to database
                             await Candidate.update({
                                     chairman_name, vice_chairman_name, candidate_number, vision, mission,

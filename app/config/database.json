@@ -1,14 +1,10 @@
 {
   "development": {
-    "use_env_variable": "DATABASE_URL",
-    "url": "postgresql://postgres:IRB4ReIqwc5m39XQWWPW@containers-us-west-116.railway.app:7773/railway",
-    "dialect": "postgres",
-    "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
-    }
+    "username": "postgres",
+    "password": "root",
+    "database": "evoting_himati",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",

@@ -8,7 +8,7 @@ const generateBody = (res, code, message, data = []) => {
             message,
             results: data
         })
-    )
+    ).end()
 }
 
 module.exports = {
@@ -30,6 +30,6 @@ module.exports = {
     },
 
     serverError(data = [], res) {
-        generateBody(res, 501, 'Internal Server Error', data)
+        generateBody(res, 500, 'Internal Server Error', data)
     }
 }

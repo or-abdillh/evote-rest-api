@@ -9,7 +9,7 @@ const database = require('./app/database')
 const routes = require('./app/routes')
 
 // Middlewares
-const authenticated = require('./app/middleware/auhenticated.js')
+const authenticated = require('./app/middleware/authenticated.js')
 const roles = require('./app/middleware/roles.js')
 const logger = require('./app/middleware/logger.js')
 
