@@ -1,10 +1,14 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "root",
-    "database": "evoting_himati",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "use_env_variable": "DATABASE_URL",
+    "url": "postgresql://postgres:CkRGkHPQGQ54XGx0TIgY@containers-us-west-51.railway.app:7667/railway",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -15,7 +19,7 @@
   },
   "production": {
     "use_env_variable": "DATABASE_URL",
-    "url": "postgresql://postgres:IRB4ReIqwc5m39XQWWPW@containers-us-west-116.railway.app:7773/railway",
+    "url": "postgresql://postgres:CkRGkHPQGQ54XGx0TIgY@containers-us-west-51.railway.app:7667/railway",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
