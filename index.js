@@ -21,7 +21,11 @@ const PORT = process.env.PORT || 3000
 app.use( bodyParser.urlencoded({ extended: true }) )
 app.use( bodyParser.json() )
 app.use( fileUpload( { useTempFiles: true, tempFileDir: process.cwd() + '/public/tmp/' } ) )
-app.use( cors() )
+app.use( cors({
+    origin: [
+        'https://evoting-himati-polihasnur.vercel.app/', 'https://evoting-himati-polihasnur-admin.vercel.app/'
+    ]
+}))
 app.use( express.static( process.cwd() + '/public' ) )
 
 // Apply middlewares

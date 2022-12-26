@@ -10,7 +10,7 @@ const { badRequest, forbidden, notFound, serverError } = require('../helpers/JSO
 module.exports = async (req, res, next) => {
     const { token } = req.headers || ''
     // validate
-    if ( token === undefined || token === '' ) badRequest('token at headers request is required', res)
+    if ( token === undefined || token === '' ) return badRequest('token at headers request is required', res)
     // verify token
     try {
         const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY)
@@ -23,6 +23,6 @@ module.exports = async (req, res, next) => {
         if ( user === null ) return notFound('user not found with token from headers', res)
         next()
     } catch(err) { 
-        serverError(err, res)
+        return serverError(err, res)
     }
 }
