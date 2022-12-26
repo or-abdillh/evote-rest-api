@@ -23,7 +23,8 @@ app.use( bodyParser.json() )
 app.use( fileUpload( { useTempFiles: true, tempFileDir: process.cwd() + '/public/tmp/' } ) )
 app.use( cors({
     origin: [
-        'https://evoting-himati-polihasnur.vercel.app/', 'https://evoting-himati-polihasnur-admin.vercel.app/'
+        'https://evoting-himati-polihasnur.vercel.app', 
+        'https://evoting-himati-polihasnur-admin.vercel.app'
     ]
 }))
 app.use( express.static( process.cwd() + '/public' ) )
