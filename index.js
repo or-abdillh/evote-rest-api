@@ -24,7 +24,8 @@ app.use( fileUpload( { useTempFiles: true, tempFileDir: process.cwd() + '/public
 app.use( cors({
     origin: [
         'https://evoting-himati-polihasnur.vercel.app', 
-        'https://evoting-himati-polihasnur-admin.vercel.app'
+        'https://evoting-himati-polihasnur-admin.vercel.app',
+        'http://localhost:3001'
     ]
 }))
 app.use( express.static( process.cwd() + '/public' ) )

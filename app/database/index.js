@@ -12,14 +12,15 @@ const dialectOptions = env === 'dev' ? {  } : {
         rejectUnauthorized: false
     },
     useUTC: false,
-    tiezone: '+08:00'
+    timezone: '+08:00'
 }
 
 const sequelize = new Sequelize(
     process.env.DATABASE_URL, {
         dialect: 'postgres',
         logging: env === 'dev' ? true : false,
-        dialectOptions
+        dialectOptions,
+        timezone: '+08:00'
     }
 )
     

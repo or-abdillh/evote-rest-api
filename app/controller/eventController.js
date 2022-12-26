@@ -2,6 +2,7 @@
 
 const { Event, User } = require('../database').models
 const { success, notFound, serverError } = require('../helpers/JSONResponse.js')
+const convertTimezone = require('../helpers/convertTimezone')
 
 module.exports = {
 
@@ -25,7 +26,8 @@ module.exports = {
     async update(req, res) {
         try {
             // get form
-            const { title, start, end, passcode } = req.body
+            let { title, start, end, passcode } = req.body
+            // Query
             await Event.update({ title, start, end, passcode }, { where: {} })
             success('Success update event detail', res)
         }  catch(err) { serverError(err, res) }
