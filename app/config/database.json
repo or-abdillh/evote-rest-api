@@ -1,7 +1,7 @@
 {
   "development": {
     "use_env_variable": "DATABASE_URL",
-    "url": "postgresql://postgres:CkRGkHPQGQ54XGx0TIgY@containers-us-west-51.railway.app:7667/railway",
+    "url": "postgresql://user:password@host:port/database",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -19,7 +19,7 @@
   },
   "production": {
     "use_env_variable": "DATABASE_URL",
-    "url": "postgresql://postgres:CkRGkHPQGQ54XGx0TIgY@containers-us-west-51.railway.app:7667/railway",
+    "url": "postgresql://user:password@host:port/database",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
